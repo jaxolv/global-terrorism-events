@@ -1,0 +1,1 @@
+-- 31.  Mostrar quantos países tem o percentual de atentados bem sucedidos que estão acima da média total da tabela e a diferença percentual de cada.

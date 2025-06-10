@@ -1,0 +1,203 @@
+country,quantidade_ataques,tipos_ataques,tipos_armas,indice_periculosidade
+Iraq,24635,8,8,384.92
+Pakistan,14368,8,9,199.56
+Afghanistan,12731,8,9,176.82
+India,11960,8,9,166.11
+Philippines,6908,8,6,143.92
+Colombia,8306,8,8,129.78
+Peru,6096,8,7,108.86
+El Salvador,5320,7,7,108.57
+Somalia,4142,8,5,103.55
+Nigeria,3907,8,6,81.4
+Egypt,2479,8,4,77.47
+United Kingdom,5235,8,9,72.71
+Nicaragua,1970,7,4,70.36
+Yemen,3347,8,6,69.73
+Thailand,3849,8,7,68.73
+Spain,3249,8,6,67.69
+Turkey,4292,8,8,67.06
+Sri Lanka,3022,8,6,62.96
+South Africa,2016,7,5,57.6
+Syria,2201,7,6,52.4
+Lebanon,2478,8,6,51.63
+Algeria,2743,8,7,48.98
+Ukraine,1709,7,5,48.83
+Guatemala,2050,8,6,42.71
+Libya,2249,8,7,40.16
+Israel,2183,8,7,38.98
+France,2693,8,9,37.4
+Chile,2365,8,8,36.95
+West Bank and Gaza Strip,2227,8,8,34.8
+Bangladesh,1648,8,6,34.33
+Russia,2194,8,8,34.28
+Democratic Republic of the Congo,775,6,4,32.29
+United States,2836,8,11,32.23
+Greece,1275,8,5,31.88
+Nepal,1215,8,5,30.38
+Sudan,967,8,4,30.22
+Italy,1565,8,7,27.95
+Myanmar,546,6,4,22.75
+Burundi,613,7,4,21.89
+Iran,684,8,5,17.1
+Kenya,683,8,5,17.08
+Angola,499,6,5,16.63
+Indonesia,761,8,6,15.85
+Argentina,815,8,7,14.55
+Mali,566,8,5,14.15
+Germany,735,8,7,13.13
+Bolivia,314,6,4,13.08
+Cameroon,332,7,4,11.86
+Yugoslavia,203,6,3,11.28
+Uganda,394,7,5,11.26
+Saudi Arabia,371,7,5,10.6
+Rwanda,159,5,3,10.6
+West Germany (FRG),541,8,7,9.66
+Croatia,57,3,2,9.5
+South Sudan,225,6,4,9.38
+Mozambique,363,8,5,9.08
+Bahrain,207,6,4,8.63
+Mexico,524,8,8,8.19
+Central African Republic,283,7,5,8.09
+Honduras,323,8,5,8.08
+Luxembourg,16,2,1,8.0
+Georgia,217,7,4,7.75
+Ireland,307,8,5,7.68
+Portugal,140,5,4,7.0
+Kosovo,196,6,5,6.53
+Cambodia,259,8,5,6.48
+Ecuador,220,7,5,6.29
+Guadeloupe,56,3,3,6.22
+Haiti,213,7,5,6.09
+Namibia,151,5,5,6.04
+Brunei,6,1,1,6.0
+Bhutan,6,1,1,6.0
+Brazil,273,8,6,5.69
+Bosnia-Herzegovina,159,7,4,5.68
+Cyprus,132,6,4,5.5
+Ethiopia,190,7,5,5.43
+Panama,127,6,4,5.29
+Venezuela,293,8,7,5.23
+China,252,7,7,5.14
+Niger,154,6,5,5.13
+Tajikistan,188,8,5,4.7
+Japan,402,8,11,4.57
+Laos,27,3,2,4.5
+Republic of the Congo,36,4,2,4.5
+Soviet Union,78,6,3,4.33
+Senegal,118,7,4,4.21
+Iceland,4,1,1,4.0
+Paraguay,114,8,4,3.56
+Rhodesia,83,6,4,3.46
+Uruguay,82,6,4,3.42
+Macedonia,118,7,5,3.37
+Chad,91,7,4,3.25
+Jordan,113,7,5,3.23
+Belgium,154,8,6,3.21
+Dominican Republic,90,7,4,3.21
+Costa Rica,67,7,3,3.19
+Papua New Guinea,89,7,4,3.18
+Switzerland,111,7,5,3.17
+Suriname,66,7,3,3.14
+Tunisia,109,7,5,3.11
+Netherlands,130,6,7,3.1
+Ivory Coast,74,6,4,3.08
+Sierra Leone,101,7,5,2.89
+Burkina Faso,52,6,3,2.89
+Canada,96,7,5,2.74
+Australia,114,6,7,2.71
+Sweden,132,7,7,2.69
+Estonia,16,3,2,2.67
+Albania,80,6,5,2.67
+Moldova,21,4,2,2.63
+Zambia,62,6,4,2.58
+East Germany (GDR),38,5,3,2.53
+Montenegro,5,2,1,2.5
+Zaire,50,5,4,2.5
+Malaysia,99,8,5,2.48
+Zimbabwe,101,7,6,2.4
+Togo,48,5,4,2.4
+Hungary,46,5,4,2.3
+Kuwait,76,7,5,2.17
+Tanzania,59,7,4,2.11
+Guinea,25,4,3,2.08
+New Caledonia,31,5,3,2.07
+Macau,33,4,4,2.06
+Denmark,41,5,4,2.05
+Azerbaijan,49,6,4,2.04
+Martinique,12,3,2,2.0
+Malta,23,4,3,1.92
+Austria,115,8,8,1.8
+Botswana,10,3,2,1.67
+Cuba,30,6,3,1.67
+Finland,20,3,4,1.67
+Lesotho,29,6,3,1.61
+South Korea,38,6,4,1.58
+Poland,39,5,5,1.56
+North Yemen,6,2,2,1.5
+Guinea-Bissau,9,3,2,1.5
+Dominica,3,1,2,1.5
+Jamaica,36,6,4,1.5
+Morocco,36,6,4,1.5
+United Arab Emirates,22,5,3,1.47
+Kyrgyzstan,35,6,4,1.46
+Bulgaria,52,6,6,1.44
+Latvia,17,4,3,1.42
+Fiji,17,4,3,1.42
+Uzbekistan,21,5,3,1.4
+Liberia,34,5,5,1.36
+Solomon Islands,4,3,1,1.33
+Benin,8,3,2,1.33
+Lithuania,8,3,2,1.33
+People's Republic of the Congo,4,3,1,1.33
+Guyana,26,5,4,1.3
+Grenada,5,2,2,1.25
+Comoros,5,2,2,1.25
+Malawi,5,2,2,1.25
+Eritrea,10,4,2,1.25
+Djibouti,22,6,3,1.22
+Mauritania,18,5,3,1.2
+Ghana,19,4,4,1.19
+Slovak Republic,18,4,4,1.13
+Czechoslovakia,10,3,3,1.11
+Trinidad and Tobago,22,5,4,1.1
+Madagascar,27,5,5,1.08
+Swaziland,16,5,3,1.07
+Czech Republic,32,5,6,1.07
+Taiwan,50,7,7,1.02
+Falkland Islands,1,1,1,1.0
+New Hebrides,1,1,1,1.0
+International,1,1,1,1.0
+Wallis and Futuna,1,1,1,1.0
+Equatorial Guinea,2,2,1,1.0
+North Korea,1,1,1,1.0
+Slovenia,6,3,2,1.0
+East Timor,10,5,2,1.0
+Serbia,12,4,3,1.0
+Mauritius,2,1,2,1.0
+Vatican City,1,1,1,1.0
+Andorra,1,1,1,1.0
+South Vietnam,1,1,1,1.0
+Antigua and Barbuda,1,1,1,1.0
+Kazakhstan,27,7,4,0.96
+Maldives,22,6,4,0.92
+Serbia-Montenegro,11,4,3,0.92
+Hong Kong,26,6,5,0.87
+Armenia,24,7,4,0.86
+Belarus,13,4,4,0.81
+New Zealand,20,5,5,0.8
+French Guiana,7,3,3,0.78
+French Polynesia,3,2,2,0.75
+Gambia,3,2,2,0.75
+Barbados,3,2,2,0.75
+Romania,6,3,3,0.67
+Belize,8,4,3,0.67
+Norway,19,6,5,0.63
+Singapore,7,4,3,0.58
+Gabon,8,4,4,0.5
+St. Kitts and Nevis,2,2,2,0.5
+Seychelles,2,2,2,0.5
+South Yemen,2,2,2,0.5
+Western Sahara,5,4,3,0.42
+Bahamas,5,4,3,0.42
+Vietnam,12,6,5,0.4
+Qatar,7,5,4,0.35

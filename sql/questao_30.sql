@@ -46,7 +46,7 @@ variedades_ataques_pais as (
 	group by country
 )
 select
-	vat.country,
+	vat.country as pais,
 	qat.quantidade_ataques,
 	vat.tipos_ataques_usados as tipos_ataques,
 	var.tipos_armas_usados as tipos_armas,

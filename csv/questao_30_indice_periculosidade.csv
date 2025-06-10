@@ -1,4 +1,4 @@
-country,quantidade_ataques,tipos_ataques,tipos_armas,indice_periculosidade
+pais,quantidade_ataques,tipos_ataques,tipos_armas,indice_periculosidade
 Iraq,24635,8,8,384.92
 Pakistan,14368,8,9,199.56
 Afghanistan,12731,8,9,176.82

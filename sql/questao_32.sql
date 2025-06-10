@@ -1,0 +1,1 @@
+--32.   Liste os 10 países com maior proporção de ataques contra propriedades privadas em relação ao total de ataques nesses países. Inclua o percentual e ordene do maior para o menor.

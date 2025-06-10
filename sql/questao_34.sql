@@ -1,0 +1,1 @@
+-- 34.  Liste os cinco anos com maior número de atentados onde o alvo era diplomático e a arma era explosiva.

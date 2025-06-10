@@ -1,0 +1,1 @@
+-- 38. Liste os cinco países com maior número de ataques em áreas sem identificação de cidade. Mostre a quantidade e o percentual em relação ao total do país.

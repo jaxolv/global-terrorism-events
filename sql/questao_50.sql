@@ -1,0 +1,1 @@
+-- 50. Crie uma métrica de risco relativo de atentado para cada país, definida como: (ataques por milhão de habitantes). Considere apenas países com população conhecida em uma tabela auxiliar fictícia chamada population(country_id, population_millions) e ordene os países do mais ao menos "perigosos".

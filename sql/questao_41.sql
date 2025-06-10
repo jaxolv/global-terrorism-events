@@ -1,0 +1,1 @@
+-- 41. Para cada região, calcule um “índice de instabilidade” definido como: (número total de tipos diferentes de ataques por país) x (percentual médio de ataques bem-sucedidos na região) Liste as regiões com seus índices, ordenadas do maior para o menor.

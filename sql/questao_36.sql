@@ -1,0 +1,1 @@
+-- 36. Para cada região, informe o país com maior quantidade de ataques em anos múltiplos de 5 (ex: 1970, 1975, etc.).

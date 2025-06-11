@@ -14,6 +14,8 @@ Este projeto utiliza o [Global Terrorism Dataset (GTD)](https://www.kaggle.com/d
 6. [Avisos](#-avisos) e [contatos](#-contato)
 7. [Agradecimentos](#se-leu-até-aqui)
 
+---
+
 ## 🎯 Objetivos do Projeto
 
 - Realizar **50 desafios de SQL**, divididos em níveis de dificuldade, a partir de uma adaptação que fiz da base GTD;

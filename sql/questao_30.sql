@@ -4,10 +4,13 @@ with quantidade_ataques_pais as (
 	select
 		c.country,
 		t.country_id,
+		t.region_id,
+		r.region,
 		count(*) as quantidade_ataques
 	from terrorism_act t
 	join country c on c.id = t.country_id
-	group by country, country_id
+	join region r on r.id = t.region_id
+	group by country, country_id, region_id, region
 ),
 tipos_armas_pais as (
 	select
@@ -46,7 +49,8 @@ variedades_ataques_pais as (
 	group by country
 )
 select
-	vat.country,
+	vat.country as pais,
+	qat.region as regiao,
 	qat.quantidade_ataques,
 	vat.tipos_ataques_usados as tipos_ataques,
 	var.tipos_armas_usados as tipos_armas,

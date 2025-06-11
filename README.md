@@ -9,7 +9,7 @@ Este projeto utiliza o [Global Terrorism Dataset (GTD)](https://www.kaggle.com/d
 2. [Estrutura de Branches](#-estrutura-de-branches)
 3. [Estrutura de Diretórios](#-estrutura-de-diretórios)
 4. [Conteúdo dos Desafios SQL](#-conteúdo-dos-desafios-sql)
-    4.1. [Desafios](sql\DESAFIOS.md)
+    4.1. [Desafios](sql/DESAFIOS.md)
 5. [Dashboards](#-dashboards)
 6. [Avisos](#-avisos) e [contatos](#-contato)
 7. [Agradecimentos](#se-leu-até-aqui)

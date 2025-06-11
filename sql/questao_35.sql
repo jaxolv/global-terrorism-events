@@ -1,1 +1,0 @@
--- 35.  Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: "Bombing/Explosion"). Mostre o país, o tipo de ataque e a proporção.

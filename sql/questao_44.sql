@@ -1,1 +1,0 @@
--- 44. Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual). Ex: se um país teve 3 tipos em 2001, 2 em 2002, 5 em 2003, calcule a média dessas quantidades.

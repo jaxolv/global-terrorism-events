@@ -1,1 +1,0 @@
--- 33. Para cada tipo de arma, mostre o número médio de ataques bem-sucedidos por região.

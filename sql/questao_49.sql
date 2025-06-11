@@ -1,1 +1,0 @@
--- 49. Para cada tipo de alvo, calcule a eficácia dos atentados definida como: (número de ataques bem-sucedidos) / (número total de ataques ao alvo). Liste os alvos com eficácia acima de 75%, ordenados do mais eficaz ao menos.

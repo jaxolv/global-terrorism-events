@@ -1,1 +1,0 @@
--- 47. Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades.

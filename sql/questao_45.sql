@@ -1,1 +1,0 @@
--- 45. Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década.

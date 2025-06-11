@@ -19,7 +19,7 @@ def extract_data():
     return df
 
 def save_to_csv(df, path='csv/questao_30_indice_periculosidade.csv'):
-    df.to_csv(path, index=False)
+    df.to_csv(path, index=False, sep=';', decimal=',')
     print(f'Dados exportados para diretório {path}')
 
 if __name__ == "__main__":

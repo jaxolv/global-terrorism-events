@@ -2,9 +2,7 @@
 
 current_branch=$(git branch --show-current)
 if [ "$current_branch" != "stage" ]; then
-  git checkout stage || { echo "Falha ao mudar para a branch 'stage'. Mude manualmente:"; exit 1; }
-
-  echo "Copie e cole: git checkout stage"
+  git checkout stage || { echo "Falha ao mudar para a branch 'stage'. Mude manualmente."; exit 1; }
 
   exit 1
 fi

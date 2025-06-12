@@ -57,7 +57,7 @@ README.md           # Você está aqui!
 ---
 
 ## 🧠 Conteúdo dos Desafios SQL
-Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql\DESAFIOS.md) para ir diretamente à página contendo todas as questões.
+Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
 
 ---
 

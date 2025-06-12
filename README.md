@@ -32,7 +32,7 @@ Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 | Branch | Função |
 |-|-|
 | `scripts` | Scripts Python de ETL, conexão com banco, exportações, etc. |
-| `sql_csv` | Consultas SQL e arquivos CSV resultantes |
+| `sql` | Consultas SQL |
 | `dashboards` | Imagens, arquivos `.pbix` e outras saídas visuais |
 | `stage` | Integração intermediária de todos os recursos antes da `main` |
 | `main` | Versão final e estável, pronta para apresentação no GitHub |

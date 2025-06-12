@@ -23,5 +23,3 @@ else
   
   git push origin main
 fi
-
-git checkout stage

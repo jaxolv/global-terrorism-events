@@ -85,7 +85,7 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 
 34. [x] Para cada ano, calcule a proporção de atentados com alvo diplomático e arma explosiva em relação ao total de atentados naquele ano. Liste os 5 anos com maior proporção e mostre o percentual.s
 
-35. [ ] Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: `Bombing/Explosion`). Mostre o país, o tipo de ataque e a proporção.
+35. [x] Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: `Bombing/Explosion`). Mostre o país, o tipo de ataque e a proporção.
 
 36. [ ] Para cada região, informe o país com maior quantidade de ataques em anos múltiplos de 5 (ex: 1970, 1975, etc.).
 

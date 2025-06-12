@@ -11,9 +11,9 @@ fi
 
 branches=("sql" "scripts" "dashboards")
 
-for branch in "${branches[@]}ss"
+for branch in "${branches[@]}"
 do
-    git checkout $branch || { echo "Falha ao mudar para $branch"; exit 1; }
+    git checkout $branch || { echo "Falha ao mudar para $branch. Continue com o procedimento manualmente."; exit 1; }
 
     git merge stage --no-edit || { echo "Conflito ao fazer merge em $branch. Resolva manualmente."; exit 1; }
 

@@ -79,11 +79,11 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 ### Nível Intermediário II
 31. [x] Mostrar quantos países tem o percentual de atentados bem sucedidos que estão acima da média total da tabela e a diferença percentual de cada.
 
-32. [ ] Liste os 10 países com maior proporção de ataques contra propriedades privadas em relação ao total de ataques nesses países. Inclua o percentual e ordene do maior para o menor.
+32. [x] Liste os 10 países com maior proporção de ataques contra propriedades privadas em relação ao total de ataques nesses países. Inclua o percentual e ordene do maior para o menor.
 
-33. [ ] Para cada tipo de arma, mostre o número médio de ataques bem-sucedidos por região.
+33. [x] Para cada tipo de arma, mostre o número médio de ataques bem-sucedidos por região.
 
-34. [ ] Liste os cinco anos com maior número de atentados onde o alvo era diplomático e a arma era explosiva.
+34. [x] Para cada ano, calcule a proporção de atentados com alvo diplomático e arma explosiva em relação ao total de atentados naquele ano. Liste os 5 anos com maior proporção e mostre o percentual.s
 
 35. [ ] Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: `Bombing/Explosion`). Mostre o país, o tipo de ataque e a proporção.
 

@@ -1,5 +1,4 @@
--- 30.	Crie uma consulta que classifique os países por um "índice de periculosidade", definido como:
--- soma total de ataques / (variedade de armas utilizadas * variedade de tipos de ataque)
+-- 30.	Crie uma consulta que classifique os países por um "índice de periculosidade", definido como: soma total de ataques / (variedade de armas utilizadas * variedade de tipos de ataque)
 with quantidade_ataques_pais as (
 	select
 		c.country,

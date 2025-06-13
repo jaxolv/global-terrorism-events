@@ -87,13 +87,13 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 
 35. [x] Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: `Bombing/Explosion`). Mostre o país, o tipo de ataque e a proporção.
 
-36. [ ] Para cada região, informe o país com maior quantidade de ataques em anos múltiplos de 5 (ex: 1970, 1975, etc.).
+36. [x] Para cada região, informe o país com maior quantidade de ataques em anos múltiplos de 5 (ex: 1970, 1975, etc.).
 
-37. [ ] Calcule o percentual de ataques bem-sucedidos para cada tipo de ataque. Ordene do maior para o menor e mostre apenas aqueles com pelo menos 100 registros.
+37. [x] Calcule o percentual de ataques bem-sucedidos para cada tipo de ataque. Ordene do maior para o menor e mostre apenas aqueles com pelo menos 100 registros.
 
-38. [ ] Liste os cinco países com maior número de ataques em áreas sem identificação de cidade. Mostre a quantidade e o percentual em relação ao total do país.
+38. [x] Liste os cinco países com maior número de ataques em áreas sem identificação de cidade. Mostre a quantidade e o percentual em relação ao total do país.
 
-39. [ ] Para cada tipo de alvo, mostre o país com maior número de ataques. Inclua o total de ataques e ordene os resultados pelo tipo de alvo em ordem alfabética.
+39. [x] Para cada tipo de alvo, mostre o país com maior número de ataques. Inclua o total de ataques e ordene os resultados pelo tipo de alvo em ordem alfabética.
 
 40. [ ] Liste os três anos com o maior crescimento percentual de ataques em relação ao ano anterior. Ignore os anos com menos de 100 ataques.
 

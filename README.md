@@ -42,15 +42,16 @@ Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 
 ## 📁 Estrutura de Diretórios
 ```
-/sql                # Consultas SQL (desafios enumerados)
-/scripts            # Scripts em Python (ETL, conexões, helpers)
-/dashboards         # Arquivos .pbix do Power BI
-/images             # Imagens auxiliares
-/docs               # Documentos usados para criar o dataset ou informações relacionadas
 /csv                # CSVs extraídos via script
-README.md           # Você está aqui! 
+/dashboards         # Arquivos .pbix do Power BI
+/docs               # Documentos usados para criar o dataset ou informações relacionadas
+/images             # Imagens auxiliares
+/scripts            # Scripts em Python (ETL, conexões, helpers)
+/sql                # Consultas SQL (desafios enumerados)
+/tools              # Documentos e scripts técnicos para gerenciamento interno do projeto e versionamento
 .env.example        # Tratativa de dados sensíveis para versionamento
 .gitignore          # Arquivos/pastas ocultas no GitHub
+README.md           # Você está aqui! 
 .requirements.txt   # Requisitos para execução desse projeto em máquina local
 ```
 

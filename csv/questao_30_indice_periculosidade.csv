@@ -1,203 +1,203 @@
-pais;regiao;quantidade_ataques;tipos_ataques;tipos_armas;indice_periculosidade
-Iraq;Middle East & North Africa;24635;8;8;384,92
-Pakistan;South Asia;14368;8;9;199,56
-Afghanistan;South Asia;12731;8;9;176,82
-India;South Asia;11960;8;9;166,11
-Philippines;Southeast Asia;6908;8;6;143,92
-Colombia;South America;8306;8;8;129,78
-Peru;South America;6096;8;7;108,86
-El Salvador;Central America & Caribbean;5320;7;7;108,57
-Somalia;Sub-Saharan Africa;4142;8;5;103,55
-Nigeria;Sub-Saharan Africa;3907;8;6;81,4
-Egypt;Middle East & North Africa;2479;8;4;77,47
-United Kingdom;Western Europe;5235;8;9;72,71
-Nicaragua;Central America & Caribbean;1970;7;4;70,36
-Yemen;Middle East & North Africa;3347;8;6;69,73
-Thailand;Southeast Asia;3849;8;7;68,73
-Spain;Western Europe;3249;8;6;67,69
-Turkey;Middle East & North Africa;4292;8;8;67,06
-Sri Lanka;South Asia;3022;8;6;62,96
-South Africa;Sub-Saharan Africa;2016;7;5;57,6
-Syria;Middle East & North Africa;2201;7;6;52,4
-Lebanon;Middle East & North Africa;2478;8;6;51,63
-Algeria;Middle East & North Africa;2743;8;7;48,98
-Ukraine;Eastern Europe;1709;7;5;48,83
-Guatemala;Central America & Caribbean;2050;8;6;42,71
-Libya;Middle East & North Africa;2249;8;7;40,16
-Israel;Middle East & North Africa;2183;8;7;38,98
-France;Western Europe;2693;8;9;37,4
-Chile;South America;2365;8;8;36,95
-West Bank and Gaza Strip;Middle East & North Africa;2227;8;8;34,8
-Bangladesh;South Asia;1648;8;6;34,33
-Russia;Eastern Europe;2194;8;8;34,28
-Democratic Republic of the Congo;Sub-Saharan Africa;775;6;4;32,29
-United States;North America;2836;8;11;32,23
-Greece;Western Europe;1275;8;5;31,88
-Nepal;South Asia;1215;8;5;30,38
-Sudan;Sub-Saharan Africa;967;8;4;30,22
-Italy;Western Europe;1565;8;7;27,95
-Myanmar;Southeast Asia;546;6;4;22,75
-Burundi;Sub-Saharan Africa;613;7;4;21,89
-Iran;Middle East & North Africa;684;8;5;17,1
-Kenya;Sub-Saharan Africa;683;8;5;17,08
-Angola;Sub-Saharan Africa;499;6;5;16,63
-Indonesia;Southeast Asia;761;8;6;15,85
-Argentina;South America;815;8;7;14,55
-Mali;Sub-Saharan Africa;566;8;5;14,15
-Germany;Western Europe;735;8;7;13,13
-Bolivia;South America;314;6;4;13,08
-Cameroon;Sub-Saharan Africa;332;7;4;11,86
-Yugoslavia;Eastern Europe;203;6;3;11,28
-Uganda;Sub-Saharan Africa;394;7;5;11,26
-Saudi Arabia;Middle East & North Africa;371;7;5;10,6
-Rwanda;Sub-Saharan Africa;159;5;3;10,6
-West Germany (FRG);Western Europe;541;8;7;9,66
-Croatia;Eastern Europe;57;3;2;9,5
-South Sudan;Sub-Saharan Africa;225;6;4;9,38
-Mozambique;Sub-Saharan Africa;363;8;5;9,08
-Bahrain;Middle East & North Africa;207;6;4;8,63
-Mexico;North America;524;8;8;8,19
-Central African Republic;Sub-Saharan Africa;283;7;5;8,09
-Honduras;Central America & Caribbean;323;8;5;8,08
-Luxembourg;Western Europe;16;2;1;8,0
-Georgia;Central Asia;217;7;4;7,75
-Ireland;Western Europe;307;8;5;7,68
-Portugal;Western Europe;140;5;4;7,0
-Kosovo;Eastern Europe;196;6;5;6,53
-Cambodia;Southeast Asia;259;8;5;6,48
-Ecuador;South America;220;7;5;6,29
-Guadeloupe;Central America & Caribbean;56;3;3;6,22
-Haiti;Central America & Caribbean;213;7;5;6,09
-Namibia;Sub-Saharan Africa;151;5;5;6,04
+pais;regiao;total_de_ataques;quant_armas_usadas_ataques;quant_tipo_ataques_diferentes;indice_de_periculosidade
+Iraq;Middle East & North Africa;19496;8;8;304,63
+Pakistan;South Asia;11513;9;8;159,9
+India;South Asia;8127;9;8;112,88
+Afghanistan;South Asia;8112;9;8;112,67
+El Salvador;Central America & Caribbean;4961;7;7;101,24
+Peru;South America;5616;7;8;100,29
+Colombia;South America;6375;8;8;99,61
+Philippines;Southeast Asia;4261;6;8;88,77
+United Kingdom;Western Europe;4773;9;8;66,29
+Nicaragua;Central America & Caribbean;1772;4;7;63,29
+Spain;Western Europe;3019;6;8;62,9
+Egypt;Middle East & North Africa;1881;4;8;58,78
+Sri Lanka;South Asia;2618;6;8;54,54
+Somalia;Sub-Saharan Africa;2116;5;8;52,9
+Thailand;Southeast Asia;2890;7;8;51,61
+South Africa;Sub-Saharan Africa;1804;5;7;51,54
+Turkey;Middle East & North Africa;2985;8;8;46,64
+Lebanon;Middle East & North Africa;2098;6;8;43,71
+Algeria;Middle East & North Africa;2160;7;8;38,57
+Guatemala;Central America & Caribbean;1687;6;8;35,15
+Chile;South America;2239;8;8;34,98
+Israel;Middle East & North Africa;1942;7;8;34,68
+France;Western Europe;2369;9;8;32,9
+Syria;Middle East & North Africa;1274;6;7;30,33
+Russia;Eastern Europe;1939;8;8;30,3
+Greece;Western Europe;1182;5;8;29,55
+Nigeria;Sub-Saharan Africa;1377;6;8;28,69
+United States;North America;2512;11;8;28,55
+Yemen;Middle East & North Africa;1292;6;8;26,92
+West Bank and Gaza Strip;Middle East & North Africa;1671;8;8;26,11
+Italy;Western Europe;1436;7;8;25,64
+Ukraine;Eastern Europe;765;5;7;21,86
+Burundi;Sub-Saharan Africa;513;4;6;21,38
+Libya;Middle East & North Africa;1156;7;8;20,64
+Bangladesh;South Asia;927;6;8;19,31
+Nepal;South Asia;771;5;8;19,28
+Angola;Sub-Saharan Africa;414;5;5;16,56
+Sudan;Sub-Saharan Africa;489;4;8;15,28
+Iran;Middle East & North Africa;581;5;8;14,53
+Myanmar;Southeast Asia;343;4;6;14,29
+Argentina;South America;696;7;7;14,2
+Indonesia;Southeast Asia;557;6;7;13,26
+Bolivia;South America;287;4;6;11,96
+Germany;Western Europe;575;7;7;11,73
+West Germany (FRG);Western Europe;510;7;7;10,41
+Yugoslavia;Eastern Europe;185;3;6;10,28
+Uganda;Sub-Saharan Africa;279;5;6;9,3
+Croatia;Eastern Europe;53;2;3;8,83
+Kenya;Sub-Saharan Africa;338;5;8;8,45
+Rwanda;Sub-Saharan Africa;125;3;5;8,33
+Portugal;Western Europe;129;4;4;8,06
+Luxembourg;Western Europe;15;1;2;7,5
+Mali;Sub-Saharan Africa;299;5;8;7,48
+Saudi Arabia;Middle East & North Africa;255;5;7;7,29
+Honduras;Central America & Caribbean;287;5;8;7,18
+Ireland;Western Europe;285;5;8;7,13
+Georgia;Central Asia;190;4;7;6,79
+Democratic Republic of the Congo;Sub-Saharan Africa;159;4;6;6,63
+Mexico;North America;404;8;8;6,31
+Bosnia-Herzegovina;Eastern Europe;149;4;6;6,21
+Bahrain;Middle East & North Africa;148;4;6;6,17
+Cambodia;Southeast Asia;213;5;7;6,09
 Brunei;Southeast Asia;6;1;1;6,0
-Bhutan;South Asia;6;1;1;6,0
-Brazil;South America;273;8;6;5,69
-Bosnia-Herzegovina;Eastern Europe;159;7;4;5,68
-Cyprus;Western Europe;132;6;4;5,5
-Ethiopia;Sub-Saharan Africa;190;7;5;5,43
-Panama;Central America & Caribbean;127;6;4;5,29
-Venezuela;South America;293;8;7;5,23
-China;East Asia;252;7;7;5,14
-Niger;Sub-Saharan Africa;154;6;5;5,13
-Tajikistan;Central Asia;188;8;5;4,7
-Japan;East Asia;402;8;11;4,57
-Republic of the Congo;Sub-Saharan Africa;36;4;2;4,5
-Laos;Southeast Asia;27;3;2;4,5
-Soviet Union;Eastern Europe;78;6;3;4,33
-Senegal;Sub-Saharan Africa;118;7;4;4,21
-Iceland;Western Europe;4;1;1;4,0
-Paraguay;South America;114;8;4;3,56
-Rhodesia;Sub-Saharan Africa;83;6;4;3,46
-Uruguay;South America;82;6;4;3,42
-Macedonia;Eastern Europe;118;7;5;3,37
-Chad;Sub-Saharan Africa;91;7;4;3,25
-Jordan;Middle East & North Africa;113;7;5;3,23
-Dominican Republic;Central America & Caribbean;90;7;4;3,21
-Belgium;Western Europe;154;8;6;3,21
-Costa Rica;Central America & Caribbean;67;7;3;3,19
-Papua New Guinea;Australasia & Oceania;89;7;4;3,18
-Switzerland;Western Europe;111;7;5;3,17
-Suriname;South America;66;7;3;3,14
-Tunisia;Middle East & North Africa;109;7;5;3,11
-Netherlands;Western Europe;130;6;7;3,1
-Ivory Coast;Sub-Saharan Africa;74;6;4;3,08
-Burkina Faso;Sub-Saharan Africa;52;6;3;2,89
-Sierra Leone;Sub-Saharan Africa;101;7;5;2,89
-Canada;North America;96;7;5;2,74
-Australia;Australasia & Oceania;114;6;7;2,71
-Sweden;Western Europe;132;7;7;2,69
-Albania;Eastern Europe;80;6;5;2,67
-Estonia;Eastern Europe;16;3;2;2,67
-Moldova;Eastern Europe;21;4;2;2,63
-Zambia;Sub-Saharan Africa;62;6;4;2,58
-East Germany (GDR);Eastern Europe;38;5;3;2,53
-Zaire;Sub-Saharan Africa;50;5;4;2,5
-Montenegro;Eastern Europe;5;2;1;2,5
-Malaysia;Southeast Asia;99;8;5;2,48
-Zimbabwe;Sub-Saharan Africa;101;7;6;2,4
-Togo;Sub-Saharan Africa;48;5;4;2,4
-Hungary;Eastern Europe;46;5;4;2,3
-Kuwait;Middle East & North Africa;76;7;5;2,17
-Tanzania;Sub-Saharan Africa;59;7;4;2,11
-Guinea;Sub-Saharan Africa;25;4;3;2,08
-New Caledonia;Australasia & Oceania;31;5;3;2,07
-Macau;East Asia;33;4;4;2,06
-Denmark;Western Europe;41;5;4;2,05
-Azerbaijan;Central Asia;49;6;4;2,04
-Martinique;Central America & Caribbean;12;3;2;2,0
-Malta;Western Europe;23;4;3;1,92
-Austria;Western Europe;115;8;8;1,8
-Cuba;Central America & Caribbean;30;6;3;1,67
-Finland;Western Europe;20;3;4;1,67
-Botswana;Sub-Saharan Africa;10;3;2;1,67
-Lesotho;Sub-Saharan Africa;29;6;3;1,61
-South Korea;East Asia;38;6;4;1,58
-Poland;Eastern Europe;39;5;5;1,56
-Morocco;Middle East & North Africa;36;6;4;1,5
-Jamaica;Central America & Caribbean;36;6;4;1,5
-Dominica;Central America & Caribbean;3;1;2;1,5
-North Yemen;Middle East & North Africa;6;2;2;1,5
-Guinea-Bissau;Sub-Saharan Africa;9;3;2;1,5
-United Arab Emirates;Middle East & North Africa;22;5;3;1,47
-Kyrgyzstan;Central Asia;35;6;4;1,46
-Bulgaria;Eastern Europe;52;6;6;1,44
-Latvia;Eastern Europe;17;4;3;1,42
-Fiji;Australasia & Oceania;17;4;3;1,42
-Uzbekistan;Central Asia;21;5;3;1,4
-Liberia;Sub-Saharan Africa;34;5;5;1,36
-People's Republic of the Congo;Sub-Saharan Africa;4;3;1;1,33
-Benin;Sub-Saharan Africa;8;3;2;1,33
-Lithuania;Eastern Europe;8;3;2;1,33
-Solomon Islands;Australasia & Oceania;4;3;1;1,33
-Guyana;South America;26;5;4;1,3
+Mozambique;Sub-Saharan Africa;209;5;7;5,97
+Kosovo;Eastern Europe;177;5;6;5,9
+Cyprus;Western Europe;116;4;5;5,8
+Guadeloupe;Central America & Caribbean;49;3;3;5,44
+Ecuador;South America;186;5;7;5,31
+Laos;Southeast Asia;21;2;2;5,25
+Haiti;Central America & Caribbean;182;5;7;5,2
+Japan;East Asia;387;11;7;5,03
+Brazil;South America;211;6;7;5,02
+Bhutan;South Asia;5;1;1;5,0
+Namibia;Sub-Saharan Africa;124;5;5;4,96
+Panama;Central America & Caribbean;115;4;6;4,79
+Soviet Union;Eastern Europe;76;3;6;4,22
+Tajikistan;Central Asia;165;5;8;4,13
+Ethiopia;Sub-Saharan Africa;122;5;6;4,07
+Venezuela;South America;223;7;8;3,98
+Jordan;Middle East & North Africa;94;5;5;3,76
+South Sudan;Sub-Saharan Africa;88;4;6;3,67
+China;East Asia;176;7;7;3,59
+Rhodesia;Sub-Saharan Africa;70;4;5;3,5
+Belgium;Western Europe;135;6;7;3,21
+Senegal;Sub-Saharan Africa;88;4;7;3,14
+Uzbekistan;Central Asia;18;2;3;3,0
+Zambia;Sub-Saharan Africa;59;4;5;2,95
+Switzerland;Western Europe;101;5;7;2,89
+Dominican Republic;Central America & Caribbean;81;4;7;2,89
+Macedonia;Eastern Europe;99;5;7;2,83
+Moldova;Eastern Europe;17;2;3;2,83
+East Germany (GDR);Eastern Europe;34;3;4;2,83
+Uruguay;South America;67;4;6;2,79
+Costa Rica;Central America & Caribbean;58;3;7;2,76
+Netherlands;Western Europe;113;7;6;2,69
+Togo;Sub-Saharan Africa;43;4;4;2,69
+Suriname;South America;53;3;7;2,52
+Albania;Eastern Europe;75;5;6;2,5
+Papua New Guinea;Australasia & Oceania;68;4;7;2,43
+Cameroon;Sub-Saharan Africa;58;4;6;2,42
+Republic of the Congo;Sub-Saharan Africa;19;2;4;2,38
+Zimbabwe;Sub-Saharan Africa;71;6;5;2,37
+Hungary;Eastern Europe;44;4;5;2,2
+Tunisia;Middle East & North Africa;65;5;6;2,17
+Australia;Australasia & Oceania;91;7;6;2,17
+Zaire;Sub-Saharan Africa;34;4;4;2,13
+Central African Republic;Sub-Saharan Africa;74;5;7;2,11
+Sierra Leone;Sub-Saharan Africa;72;5;7;2,06
+Niger;Sub-Saharan Africa;61;5;6;2,03
+Paraguay;South America;65;4;8;2,03
+Martinique;Central America & Caribbean;12;2;3;2,0
+Iceland;Western Europe;2;1;1;2,0
+Montenegro;Eastern Europe;2;1;1;2,0
+Azerbaijan;Central Asia;40;4;5;2,0
+Sweden;Western Europe;95;7;7;1,94
+Canada;North America;67;5;7;1,91
+Austria;Western Europe;105;8;7;1,88
+New Caledonia;Australasia & Oceania;28;3;5;1,87
+Cuba;Central America & Caribbean;22;3;4;1,83
+Estonia;Eastern Europe;11;2;3;1,83
+Kuwait;Middle East & North Africa;64;5;7;1,83
+Macau;East Asia;29;4;4;1,81
+Malta;Western Europe;20;3;4;1,67
+United Arab Emirates;Middle East & North Africa;20;3;4;1,67
+Burkina Faso;Sub-Saharan Africa;30;3;6;1,67
+Botswana;Sub-Saharan Africa;10;2;3;1,67
+Morocco;Middle East & North Africa;26;4;4;1,63
+Ivory Coast;Sub-Saharan Africa;39;4;6;1,63
+Jamaica;Central America & Caribbean;32;4;5;1,6
+Tanzania;Sub-Saharan Africa;38;4;6;1,58
+Lesotho;Sub-Saharan Africa;23;3;5;1,53
+Chad;Sub-Saharan Africa;42;4;7;1,5
+Malaysia;Southeast Asia;60;5;8;1,5
+Benin;Sub-Saharan Africa;6;2;2;1,5
+Dominica;Central America & Caribbean;3;2;1;1,5
+Djibouti;Sub-Saharan Africa;18;3;4;1,5
+Solomon Islands;Australasia & Oceania;3;1;2;1,5
+Bulgaria;Eastern Europe;44;6;5;1,47
+Fiji;Australasia & Oceania;13;3;3;1,44
+Latvia;Eastern Europe;17;3;4;1,42
+Slovak Republic;Eastern Europe;17;4;3;1,42
+Finland;Western Europe;16;4;3;1,33
+Lithuania;Eastern Europe;8;2;3;1,33
+Poland;Eastern Europe;33;5;5;1,32
+Denmark;Western Europe;26;4;5;1,3
 Grenada;Central America & Caribbean;5;2;2;1,25
+South Korea;East Asia;30;4;6;1,25
 Comoros;Sub-Saharan Africa;5;2;2;1,25
-Malawi;Sub-Saharan Africa;5;2;2;1,25
-Eritrea;Sub-Saharan Africa;10;4;2;1,25
-Djibouti;Sub-Saharan Africa;22;6;3;1,22
-Mauritania;Sub-Saharan Africa;18;5;3;1,2
-Ghana;Sub-Saharan Africa;19;4;4;1,19
-Slovak Republic;Eastern Europe;18;4;4;1,13
-Czechoslovakia;Eastern Europe;10;3;3;1,11
-Trinidad and Tobago;Central America & Caribbean;22;5;4;1,1
-Madagascar;Sub-Saharan Africa;27;5;5;1,08
-Swaziland;Sub-Saharan Africa;16;5;3;1,07
-Czech Republic;Eastern Europe;32;5;6;1,07
-Taiwan;East Asia;50;7;7;1,02
-Mauritius;South Asia;2;1;2;1,0
-New Hebrides;Australasia & Oceania;1;1;1;1,0
-North Korea;East Asia;1;1;1;1,0
-International;Middle East & North Africa;1;1;1;1,0
-Serbia;Eastern Europe;12;4;3;1,0
-Slovenia;Eastern Europe;6;3;2;1,0
-South Vietnam;Southeast Asia;1;1;1;1,0
-Falkland Islands;South America;1;1;1;1,0
-Equatorial Guinea;Sub-Saharan Africa;2;2;1;1,0
-East Timor;Southeast Asia;10;5;2;1,0
-Andorra;Western Europe;1;1;1;1,0
-Vatican City;Western Europe;1;1;1;1,0
+Swaziland;Sub-Saharan Africa;14;3;4;1,17
+Guinea-Bissau;Sub-Saharan Africa;7;2;3;1,17
+Guyana;South America;23;4;5;1,15
+Guinea;Sub-Saharan Africa;13;3;4;1,08
+Kyrgyzstan;Central Asia;25;4;6;1,04
+Liberia;Sub-Saharan Africa;26;5;5;1,04
 Wallis and Futuna;Australasia & Oceania;1;1;1;1,0
+Malawi;Sub-Saharan Africa;4;2;2;1,0
+Slovenia;Eastern Europe;6;2;3;1,0
+People's Republic of the Congo;Sub-Saharan Africa;2;1;2;1,0
 Antigua and Barbuda;Central America & Caribbean;1;1;1;1,0
-Kazakhstan;Central Asia;27;7;4;0,96
-Maldives;South Asia;22;6;4;0,92
-Serbia-Montenegro;Eastern Europe;11;4;3;0,92
-Hong Kong;East Asia;26;6;5;0,87
-Armenia;Central Asia;24;7;4;0,86
-Belarus;Eastern Europe;13;4;4;0,81
-New Zealand;Australasia & Oceania;20;5;5;0,8
+New Hebrides;Australasia & Oceania;1;1;1;1,0
+Vatican City;Western Europe;1;1;1;1,0
+Equatorial Guinea;Sub-Saharan Africa;1;1;1;1,0
+Eritrea;Sub-Saharan Africa;6;2;3;1,0
+South Vietnam;Southeast Asia;1;1;1;1,0
+International;Middle East & North Africa;1;1;1;1,0
+North Yemen;Middle East & North Africa;4;2;2;1,0
+Falkland Islands;South America;1;1;1;1,0
+Mauritius;South Asia;2;2;1;1,0
+East Timor;Southeast Asia;10;2;5;1,0
+Andorra;Western Europe;1;1;1;1,0
+Ghana;Sub-Saharan Africa;16;4;4;1,0
+North Korea;East Asia;1;1;1;1,0
+Taiwan;East Asia;46;7;7;0,94
+Armenia;Central Asia;22;4;6;0,92
+Kazakhstan;Central Asia;18;4;5;0,9
+Trinidad and Tobago;Central America & Caribbean;18;4;5;0,9
+Mauritania;Sub-Saharan Africa;13;3;5;0,87
+Serbia;Eastern Europe;10;3;4;0,83
+Czech Republic;Eastern Europe;25;6;5;0,83
+Serbia-Montenegro;Eastern Europe;10;3;4;0,83
+Czechoslovakia;Eastern Europe;7;3;3;0,78
 French Guiana;South America;7;3;3;0,78
+Madagascar;Sub-Saharan Africa;19;5;5;0,76
 French Polynesia;Australasia & Oceania;3;2;2;0,75
-Gambia;Sub-Saharan Africa;3;2;2;0,75
 Barbados;Central America & Caribbean;3;2;2;0,75
+New Zealand;Australasia & Oceania;18;5;5;0,72
 Romania;Eastern Europe;6;3;3;0,67
-Belize;Central America & Caribbean;8;4;3;0,67
-Norway;Western Europe;19;6;5;0,63
-Singapore;Southeast Asia;7;4;3;0,58
-Gabon;Sub-Saharan Africa;8;4;4;0,5
-Seychelles;Sub-Saharan Africa;2;2;2;0,5
-South Yemen;Middle East & North Africa;2;2;2;0,5
+Hong Kong;East Asia;20;5;6;0,67
+Belarus;Eastern Europe;10;4;4;0,63
+Belize;Central America & Caribbean;5;3;3;0,56
+Norway;Western Europe;13;5;5;0,52
 St. Kitts and Nevis;Central America & Caribbean;2;2;2;0,5
-Western Sahara;Middle East & North Africa;5;4;3;0,42
-Bahamas;Central America & Caribbean;5;4;3;0,42
-Vietnam;Southeast Asia;12;6;5;0,4
-Qatar;Middle East & North Africa;7;5;4;0,35
+Gabon;Sub-Saharan Africa;8;4;4;0,5
+Western Sahara;Middle East & North Africa;3;3;2;0,5
+Gambia;Sub-Saharan Africa;2;2;2;0,5
+South Yemen;Middle East & North Africa;2;2;2;0,5
+Seychelles;Sub-Saharan Africa;2;2;2;0,5
+Singapore;Southeast Asia;6;3;4;0,5
+Maldives;South Asia;9;4;5;0,45
+Bahamas;Central America & Caribbean;5;3;4;0,42
+Vietnam;Southeast Asia;11;5;6;0,37
+Qatar;Middle East & North Africa;6;4;5;0,3

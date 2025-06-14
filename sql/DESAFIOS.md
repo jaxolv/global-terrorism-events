@@ -95,12 +95,12 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 
 39. [x] Para cada tipo de alvo, mostre o país com maior número de ataques. Inclua o total de ataques e ordene os resultados pelo tipo de alvo em ordem alfabética.
 
-40. [ ] Liste os três anos com o maior crescimento percentual de ataques em relação ao ano anterior. Ignore os anos com menos de 100 ataques.
+40. [x] Liste os três anos com o maior crescimento percentual de ataques em relação ao ano anterior. Ignore os anos com menos de 100 ataques.
 
 ### Nível Avançado I
-41. [ ] Para cada região, calcule um “índice de instabilidade” definido como:
+41. [x] Para cada região, calcule um “índice de instabilidade” definido como:
     ```
-    (número total de tipos diferentes de ataques por país) x (percentual médio de ataques bem-sucedidos na região)
+    (número total de tipos diferentes de ataques por país) x (percentual fracionário médio de ataques bem-sucedidos na região)
     ```
     Liste as regiões com seus índices, ordenadas do maior para o menor.
 

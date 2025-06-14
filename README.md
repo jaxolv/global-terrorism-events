@@ -1,6 +1,6 @@
 # 🌍 Atentados Terroristas ao Redor do Mundo
 
-Este projeto utiliza o [Global Terrorism Dataset (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
+Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
 
 ---
 

@@ -71,11 +71,11 @@ Para cada país, foi calculado o "Índice de Periculosidade", onde foi dividido 
 ![Regiões dos 8 países com maiores índices de periculosidade](images/questao_30_grafico_de_donut.png)
 
 ### Questão 41: Índice de Instabilidade
-Para cada região do mundo, foi encontrado o "Índice de Instabilidade", baseado no produto do número total de diferentes ataques por país pelo percentual fracionário médio de ataques bem-sucedidos na região. Esse número vai de encontro à tabela exibida anteriormente, já que nele podemos identificar que os primeiros lugares são as mesmas regiões, porém nota-se que agora outras regiões da Europa surgem entre os 5 primeiros, mostrando que não são métricas espelhadas entre si e que há indícios de que a taxa de sucessos dos ataques pode ser determinando para este ranking.
+Para cada região do mundo foi encontrado o "Índice de Instabilidade", baseado no produto do número total de diferentes ataques por país pelo percentual fracionário médio de ataques bem-sucedidos na região. Esse número vai de encontro à tabela exibida anteriormente, já que nele podemos identificar que os primeiros lugares são as mesmas regiões, porém nota-se que agora outras regiões da Europa surgem entre os 5 primeiros, mostrando que não são métricas espelhadas entre si e que há indícios de que a taxa de sucessos dos ataques pode ser determinante para este novo ranking.
 
 ![Índice de instabilidade por região em ordem decrescente](images/questao_41_grafico_de_barras.png)
 
-Quando agrupamos por continentes, vemos que regiões da África continuam à frente, mas a Europa assume o segundo lugar.
+Quando agrupamos por continentes, vemos que regiões da África continuam à frente, mas a Europa assume o segundo lugar, seguido pelas Américas, Ásia e por último a Região da Oceania.
 
 ![Continentes divididos por índice de instabilidade](images/questao_41_grafico_de_pizza.png)
 

@@ -66,9 +66,18 @@ Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao
 Abaixo serão adicionadas imagens de dashboards criados no Power BI como exemplo.
 
 ### Questão 30: Índice de Periculosidade
-Para cada país, foi calculado o "Índice de Periculosidade", onde foi dividido o número total de ataques registrados desde 1970 pelo produto entre variedade de armas usadas e variedade de ataques. Essa métrica mediria quão "perigoso" é um país em termos de atentados terroristas, independente seus alvos, quem planejou/executou ou métodos usados. Na imagem, têm-se os 10 países com maiores Índices de Periculosidade.
+Para cada país, foi calculado o "Índice de Periculosidade", onde foi dividido o número total de ataques registrados desde 1970 pelo produto entre variedade de armas usadas e variedade de ataques. Essa métrica mediria quão "perigoso" é um país em termos de atentados terroristas, independente dos seus alvos, quem planejou/executou ou métodos usados. Na imagem, têm-se as regiões ao redor do mundo dos 8 países com maiores Índices de Periculosidade.
 
-![10 países com os maiores índices de periculosidade](images/questao_30_grafico_barras.png)
+![Regiões dos 8 países com maiores índices de periculosidade](images/questao_30_grafico_de_donut.png)
+
+### Questão 41: Índice de Instabilidade
+Para cada região do mundo, foi encontrado o "Índice de Instabilidade", baseado no produto do número total de diferentes ataques por país pelo percentual fracionário médio de ataques bem-sucedidos na região. Esse número vai de encontro à tabela exibida anteriormente, já que nele podemos identificar que os primeiros lugares são as mesmas regiões, porém nota-se que agora outras regiões da Europa surgem entre os 5 primeiros, mostrando que não são métricas espelhadas entre si e que há indícios de que a taxa de sucessos dos ataques pode ser determinando para este ranking.
+
+![Índice de instabilidade por região em ordem decrescente](images/questao_41_grafico_de_barras.png)
+
+Quando agrupamos por continentes, vemos que regiões da África continuam à frente, mas a Europa assume o segundo lugar.
+
+![Continentes divididos por índice de instabilidade](images/questao_41_grafico_de_pizza.png)
 
 ---
 

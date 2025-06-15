@@ -3,17 +3,15 @@ with ataques_alvo_pais as (
     select
         target_id,
         country_id,
-        count(*) as todos_ataques_alvos_pais
+        sum(case when target_id is not null then 1 else 0 end) as todos_ataques_alvos_pais
     from terrorism_act
-    where target_id is not null
     group by target_id, country_id
 ),
 quantidade_ataques_alvo as (
     select
         target_id,
-        count(*) as todos_ataques_ao_alvo
+        sum(case when target_id is not null then 1 else 0 end) as todos_ataques_ao_alvo
     from terrorism_act
-    where target_id is not null
     group by target_id
 ),
 ranking_ataques_alvo as (

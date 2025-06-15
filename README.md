@@ -77,7 +77,7 @@ Para cada região do mundo foi encontrado o "Índice de Instabilidade", baseado 
 
 Quando agrupamos por continentes, vemos que regiões da África continuam à frente, mas a Europa assume o segundo lugar, seguido pelas Américas, Ásia e por último a Região da Oceania.
 
-![Continentes divididos por índice de instabilidade](images/questao_41_grafico_de_pizza.png)
+![Continentes divididos por índice de instabilidade](images/questao_41_grafico_cascata.png)
 
 ---
 

@@ -1,5 +1,10 @@
 -- 33.  Para cada tipo de arma, mostre o número médio de ataques bem-sucedidos por região.
-with sucesso_ataques_arma_regiao as (
+select
+    weapon,
+    sum(total_ataques) as total_ataques_sucesso,
+    count(*) as quantidade_regioes,
+    round(sum(total_ataques)::numeric/count(*), 2) as media_ataques_bem_sucedidos
+from (
     select
         weapon_id,
         weapon,
@@ -13,11 +18,5 @@ with sucesso_ataques_arma_regiao as (
     and success = true
     group by region_id, region, weapon_id, weapon
 )
-select
-    weapon,
-    sum(total_ataques) as total_ataques_sucesso,
-    count(*) as quantidade_regioes,
-    round(sum(total_ataques)::numeric/count(*), 2) as media_ataques_bem_sucedidos
-from sucesso_ataques_arma_regiao
 group by weapon
 order by weapon;

@@ -106,12 +106,12 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 
 42. [x] Liste os cinco pares de países com maior número de ataques usando armas químicas, biológicas ou radiológicas. Inclua o ano do par, a quantidade de ataques e o tipo de arma mais comum usado por ambos.
 
-43. [ ] Mostre, para cada país, a diferença percentual entre o total de ataques e o total de ataques bem-sucedidos. Liste apenas os países com pelo menos 100 ataques.
+43. [x] Mostre, para cada país, a diferença percentual entre o total de ataques e o total de ataques bem-sucedidos. Liste apenas os países com pelo menos 100 ataques.
 
-44. [ ] Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual).
+44. [x] Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual).
     Ex: se um país teve 3 tipos em 2001, 2 em 2002, 5 em 2003, calcule a média dessas quantidades.
 
-45. [ ] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década.
+45. [/] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década.
 
 ### Nível Avançado II
 46. [ ] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.

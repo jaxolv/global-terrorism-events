@@ -104,7 +104,7 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
     ```
     Liste as regiões com seus índices, ordenadas do maior para o menor.
 
-42. [ ] Liste os cinco pares de país e ano com maior número de ataques usando armas químicas, biológicas ou radiológicas. Inclua a quantidade e o tipo de arma mais comum nesse par.
+42. [x] Liste os cinco pares de países com maior número de ataques usando armas químicas, biológicas ou radiológicas. Inclua o ano do par, a quantidade de ataques e o tipo de arma mais comum usado por ambos.
 
 43. [ ] Mostre, para cada país, a diferença percentual entre o total de ataques e o total de ataques bem-sucedidos. Liste apenas os países com pelo menos 100 ataques.
 

@@ -1,96 +1,101 @@
-# 🌍 Atentados Terroristas ao Redor do Mundo
+This project also has a portuguese version: [Leia em Português](docs/README-PT-BR.md)
 
-Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
+# 🌍 Terrorist Attacks Around the World
+
+This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) for **study**, **documentation**, and **technical skill demonstration** in **SQL, Python, and Power BI**. Although it's a personal project, it is structured as a public portfolio.
 
 ---
 
-## Sumário
-1. [Objetivos do Projeto](#-objetivos-do-projeto)
-2. [Estrutura de Branches](#-estrutura-de-branches)
-3. [Estrutura de Diretórios](#-estrutura-de-diretórios)
-4. [Conteúdo dos Desafios SQL](#-conteúdo-dos-desafios-sql)
+## Summary
+1. [Project Objectives](#-project-objectives)
+2. [Structure](#-structure)
+
+    2.1. [Branch Structure](#-branch-structure)
+    2.2. [Directory Structure](#-directory-structure)
+3. [SQL Challenges Content](#-sql-challenges-content)
    
-    4.1 [Desafios](sql/DESAFIOS.md)
-6. [Dashboards](#-dashboards)
-7. [Avisos](#-avisos) e [contatos](#-contato)
-8. [Agradecimentos](#se-leu-até-aqui)
+    3.1 [Challenges](sql/DISCLAIMER.md)
+4. [Dashboards](#-dashboards)
+5. [Disclaimers](#-disclaimers) and [Contact](#-contact)
+6. [Acknowledgments](#if-you-read-this-far)
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 🎯 Objectives
 
-- Realizar **50 desafios de SQL**, divididos em níveis de dificuldade, a partir de uma adaptação que fiz da base GTD;
-- Criar um pipeline de **ETL em Python** para manipulação e exportação dos dados;
-- Construir **dashboards em Power BI** para visualização interativa;
-- Utilizar boas práticas de versionamento com **Git e GitHub**.
+- Complete **50 SQL challenges**, divided by difficulty levels, based on a customized version of the GTD dataset;
+- Create a **Python ETL pipeline** for data manipulation and export;
+- Build **Power BI dashboards** for interactive data visualization;
+- Apply best practices in version control using **Git and GitHub**.
 
 ---
 
-## 🚀 Estrutura de Branches
+## 🌿 Structure
 
-Este projeto segue um fluxo de trabalho organizado por funcionalidades:
+### 🚀 Branches
 
-| Branch | Função |
+This project follows a workflow organized by functionality:
+
+| Branch | Purpose |
 |-|-|
-| `scripts` | Scripts Python de ETL, conexão com banco, exportações, etc. |
-| `sql` | Consultas SQL |
-| `dashboards` | Imagens, arquivos `.pbix` e outras saídas visuais |
-| `stage` | Integração intermediária de todos os recursos antes da `main` |
-| `main` | Versão final e estável, pronta para apresentação no GitHub |
+| `scripts` | Python scripts for ETL, database connection, exports, etc. |
+| `sql` | SQL queries |
+| `dashboards` | Images, `.pbix` files, and other visual outputs |
+| `stage` | Intermediate integration of all resources before merging into `main` |
+| `main` | Final and stable version, ready for public presentation on GitHub |
 
----
-
-## 📁 Estrutura de Diretórios
+### 📁 Directories
 ```
-/csv                # CSVs extraídos via script
-/dashboards         # Arquivos .pbix do Power BI
-/docs               # Documentos usados para criar o dataset ou informações relacionadas
-/images             # Imagens auxiliares
-/scripts            # Scripts em Python (ETL, conexões, helpers)
-/sql                # Consultas SQL (desafios enumerados)
-/tools              # Documentos e scripts técnicos para gerenciamento interno do projeto e versionamento
-.env.example        # Tratativa de dados sensíveis para versionamento
-.gitignore          # Arquivos/pastas ocultas no GitHub
-README.md           # Você está aqui! 
-.requirements.txt   # Requisitos para execução desse projeto em máquina local
+/csv                # CSVs extracted via script
+/dashboards         # Power BI (.pbix) files
+/docs               # Documents used to build the dataset or related info
+/images             # Supporting images
+/scripts            # Python scripts (ETL, connections, helpers)
+/sql                # SQL queries (numbered challenges)
+/tools              # Internal project management and versioning scripts/docs
+.env.example        # Sensitive data handling for version control
+.gitignore          # Files/folders hidden on GitHub
+README.md           # You are here!
+.requirements.txt   # Requirements to run this project locally
 ```
 
 ---
 
-## 🧠 Conteúdo dos Desafios SQL
-Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
+## 🧠 SQL Challenges Content
+The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](sql/DISCLAIMER.md) to go directly to the page with all the questions.
 
 ---
 
 ## 📊 Dashboards
-Abaixo serão adicionadas imagens de dashboards criados no Power BI como exemplo.
+Examples of dashboards created in Power BI:
 
-### Questão 30: Índice de Periculosidade
-Para cada país, foi calculado o "Índice de Periculosidade", onde foi dividido o número total de ataques registrados desde 1970 pelo produto entre variedade de armas usadas e variedade de ataques. Essa métrica mediria quão "perigoso" é um país em termos de atentados terroristas, independente dos seus alvos, quem planejou/executou ou métodos usados. Na imagem, têm-se as regiões ao redor do mundo dos 8 países com maiores Índices de Periculosidade.
+### Challenge 30: Dangerousness Index
+For each country, a "Dangerousness Index" was calculated by dividing the total number of recorded attacks since 1970 by the product of the variety of weapons used and the variety of attack types. This metric measures how "dangerous" a country is in terms of terrorism attacks, regardless of targets, perpetrators, or methods used. The image shows the regions of the 8 countries with the highest Dangerousness Index around the world.
 
-![Regiões dos 8 países com maiores índices de periculosidade](images/questao_30_grafico_de_donut.png)
+![Regions of the 8 countries with the highest Dangerousness Index](images/questao_30_grafico_de_donut.png)
 
-### Questão 41: Índice de Instabilidade
-Para cada região do mundo foi encontrado o "Índice de Instabilidade", baseado no produto do número total de diferentes ataques por país pelo percentual fracionário médio de ataques bem-sucedidos na região. Esse número vai de encontro à tabela exibida anteriormente, já que nele podemos identificar que os primeiros lugares são as mesmas regiões, porém nota-se que agora outras regiões da Europa surgem entre os 5 primeiros, mostrando que não são métricas espelhadas entre si e que há indícios de que a taxa de sucessos dos ataques pode ser determinante para este novo ranking.
+### Challenge 41: Instability Index
+For each region in the world, an "Instability Index" was calculated, based on the product of the total number of different attack types per country and the average fractional success rate of attacks in the region. This ranking contrasts with the previous table: while the top regions remain similar, some European regions now appear among the top 5, showing that these are not mirrored metrics and that the attack success rate may play a decisive role in this new ranking.
 
-![Índice de instabilidade por região em ordem decrescente](images/questao_41_grafico_de_barras.png)
+![Instability index by region in descending order](images/questao_41_grafico_de_barras.png)
 
-Quando agrupamos por continentes, vemos que regiões da África continuam à frente, mas a Europa assume o segundo lugar, seguido pelas Américas, Ásia e por último a Região da Oceania.
+When grouped by continent, African regions remain in the lead, but Europe takes second place, followed by the Americas, Asia and Oceania.
 
-![Continentes divididos por índice de instabilidade](images/questao_41_grafico_cascata.png)
-
----
-
-## 📌 Avisos
-1) Este projeto é educacional e não possui fins comerciais. As análises foram produzidas com base em dados públicos do Kaggle, e servem como demonstração de habilidades técnicas.
-2) Caso queira, você pode baixar os documentos que usei para este projeto, incluindo os desafios em PDF. Todos estão no arquivo `.rar` em [docs](docs), incluindo os CSVs das tabelas adaptadas para esse projeto.
-
-## 📬 Contato
-Você encontrará meus contatos no `README` do meu perfil aqui no Github: [github.com/jaxolv](https://github.com/jaxolv)
+![Continents ranked by Instability Index](images/questao_41_grafico_cascata.png)
 
 ---
 
-## Se leu até aqui:
-Desde já, agradeço pela atenção.
+## 📌 Disclaimers
+1) This project is educational and has no commercial purpose. The analyses were based on public data from the site [Kaggle](https://www.kaggle.com/datasets/) and are intended to demonstrate technical skills.
+2) If you wish, you can download the documents I used for this project, including the PDFs. Everything is available in the `.rar` file in [docs](docs), including the adapted table CSVs for this project.
 
-Sigo à disposição para contato.
+## 📬 Contact
+You'll find all my contacts in the `README` of my GitHub profile: [github.com/jaxolv](https://github.com/jaxolv)
+
+---
+
+## If you get here:
+Thank you so much for your time and attention.
+
+Feel free to get in touch!
+

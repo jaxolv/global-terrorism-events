@@ -111,10 +111,10 @@ Aqui estará listado e enumerado todos os desafios feitos em SQL para esse proje
 44. [x] Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual).
     Ex: se um país teve 3 tipos em 2001, 2 em 2002, 5 em 2003, calcule a média dessas quantidades.
 
-45. [/] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década.
+45. [x] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década.
 
 ### Nível Avançado II
-46. [ ] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
+46. [/] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
 
 47. [ ] Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades.
 

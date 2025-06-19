@@ -1,1 +1,1 @@
--- 46. Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
+-- 46. For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year.

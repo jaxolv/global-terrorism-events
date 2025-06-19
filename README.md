@@ -1,4 +1,4 @@
-This project also has a portuguese version: [Leia em Português](docs/README-PT-BR.md)
+This project also has a portuguese version: :brazil: [Leia em Português](docs/README-PT-BR.md)
 
 # 🌍 Terrorist Attacks Around the World
 

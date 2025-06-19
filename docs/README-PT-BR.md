@@ -1,4 +1,4 @@
-Esse projeto também tem uma versão em Inglês: [Read In English](/README.md)
+Esse projeto também tem uma versão em Inglês: :us: [Read In English](/README.md)
 
 # 🌍 Atentados Terroristas ao Redor do Mundo
 
@@ -31,7 +31,7 @@ Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/d
 
 ---
 
-## Estruturas
+## 🌿 Estruturas
 
 ### 🚀 Branches
 

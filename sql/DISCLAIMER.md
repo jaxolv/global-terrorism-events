@@ -1,3 +1,5 @@
+:us:
+
 # Disclaimer
 
 All the 50 challenges were made and divided in 6 parts:
@@ -13,6 +15,6 @@ All the 50 challenges were made and divided in 6 parts:
 
 The first 30 challenges (questions) were answered in Portuguese. The last 20 are being done in English for practicality in solving and portfolio. You can click in the leves at the summary to open it.
 
-In case you want to see all the challenges in portuguese, you can see in here: [Veja os Desafios de Nível Básico a Intermediário em Português](/sql/pt-br/DESAFIOS.md)
+In case you want to see all the challenges in portuguese, you can see in here: :brazil: [Desafios de Nível Básico a Intermediário em Português](/sql/pt-br/DESAFIOS.md)
 
 For the 20 and more advanced questions in english, you can click here too: [Intermediate to Advanced Challenges in English](/sql/eng/CHALLENGES.md)

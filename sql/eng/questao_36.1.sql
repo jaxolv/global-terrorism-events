@@ -1,17 +1,15 @@
--- 36.  Para cada região, informe o país com maior quantidade de ataques em anos múltiplos de 5 (ex: 1970, 1975, etc.)
--- 1.   Para cada ano múltiplo de 5 (ex: 1970, 1975, 1980, etc.) e para cada região, identifique o país com maior número de atentados naquele ano.
+-- 36.1.  For each year that is a multiple of 5 (e.g. 1970, 1975, 1980, etc.) and for each region, identify the country with the highest number of attacks in that year.
 select
-    ano,
-    country as pais,
-    ra.country_id,
-    region as regiao,
-    total_ataques
+    year,
+    country,
+    region,
+    attacks
 from (
     select
-        iyear as ano,
+        iyear as year,
         country_id,
         region_id,
-        count(*) as total_ataques,
+        count(*) as attacks,
         row_number() over (
             partition by region_id
             order by count(*) desc

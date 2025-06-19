@@ -1,16 +1,16 @@
--- 33.  Para cada tipo de arma, mostre o número médio de ataques bem-sucedidos por região.
+-- 33.  For each weapon type, show the average number of successful attacks per region.
 select
     weapon,
-    sum(total_ataques) as total_ataques_sucesso,
-    count(*) as quantidade_regioes,
-    round(sum(total_ataques)::numeric/count(*), 2) as media_ataques_bem_sucedidos
+    sum(total_attacks) as attacks_successfull,
+    count(*) as amount_regions,
+    round(sum(total_attacks)::numeric/count(*), 2) as avg_attacks_successfull
 from (
     select
         weapon_id,
         weapon,
         region_id,
         region,
-        count(*) as total_ataques
+        count(*) as total_attacks
     from terrorism_act t
     join weapon w on w.id = t.weapon_id
     join region r on r.id = t.region_id

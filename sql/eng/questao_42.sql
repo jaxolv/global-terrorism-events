@@ -1,57 +1,57 @@
--- 42. Liste os cinco pares de país com maior número de ataques usando armas químicas, biológicas ou radiológicas. Inclua o ano, a quantidade e o tipo de arma mais comum nesse par.
-with tab_armas_ataques_paises as (
+-- 42. List the five country pairs with the highest number of attacks using chemical, biological, or radiological weapons. Include the year for each pair, the number of attacks, and the most common weapon type used by both.
+with cte_attacks_weapon_countries as (
     select
         *,
         case
             when
-                ataq_armas_biologicas > ataq_armas_quimicas
-                and ataq_armas_biologicas > ataq_armas_radiologicas
+                attacks_biological_weapons > attacks_chemical_weapons
+                and attacks_biological_weapons > attacks_radiological_weapons
             then 1
             when
-                ataq_armas_quimicas > ataq_armas_biologicas 
-                and ataq_armas_quimicas > ataq_armas_radiologicas
+                attacks_chemical_weapons > attacks_biological_weapons 
+                and attacks_chemical_weapons > attacks_radiological_weapons
             then 2
             else 3
-        end as id_arma_mais_comum
+        end as weapon_id
     from (
         select
             country_id,
-            iyear as ano,
-            sum(case when weapon_id in (1, 2, 3) then 1 else 0 end) as quant_ataques_total,
-            sum(case when weapon_id = 1 then 1 else 0 end) as ataq_armas_biologicas,
-            sum(case when weapon_id = 2 then 1 else 0 end) as ataq_armas_quimicas,
-            sum(case when weapon_id = 3 then 1 else 0 end) as ataq_armas_radiologicas
+            iyear as year,
+            sum(case when weapon_id in (1, 2, 3) then 1 else 0 end) as attacks,
+            sum(case when weapon_id = 1 then 1 else 0 end) as attacks_biological_weapons,
+            sum(case when weapon_id = 2 then 1 else 0 end) as attacks_chemical_weapons,
+            sum(case when weapon_id = 3 then 1 else 0 end) as attacks_radiological_weapons
         from terrorism_act
         group by country_id, iyear
     ) as sub
 ),
-tab_ataques_mais_comuns as (
+cte_most_common_attacks as (
     select
         country_id,
-        ano,
-        country as pais,
-        id_arma_mais_comum,
+        year,
+        country,
+        weapon_id,
         case
-            when id_arma_mais_comum = 1
-            then ataq_armas_biologicas
-            when id_arma_mais_comum = 2
-            then ataq_armas_quimicas
-            else ataq_armas_radiologicas
-        end as quant_ataques_arma_mais_comum
-    from tab_armas_ataques_paises aap
+            when weapon_id = 1
+            then attacks_biological_weapons
+            when weapon_id = 2
+            then attacks_chemical_weapons
+            else attacks_radiological_weapons
+        end as attacks_most_common_weapon
+    from cte_attacks_weapon_countries aap
     join country c on c.id = aap.country_id
 )
 select
-    amc.ano,
-    amc.pais as primeiro_pais,
-    amco.pais as segundo_pais,
-    weapon as arma_mais_comum,
-    amc.quant_ataques_arma_mais_comum + amco.quant_ataques_arma_mais_comum as quant_ataques_arma_mais_comum
-from tab_ataques_mais_comuns amc
-join tab_ataques_mais_comuns amco on amc.ano = amco.ano
-join weapon w on w.id = amc.id_arma_mais_comum
-where amc.pais > amco.pais
-and amc.quant_ataques_arma_mais_comum > 0
-and amco.quant_ataques_arma_mais_comum > 0
-order by quant_ataques_arma_mais_comum desc
+    amc.year,
+    amc.country as first_country,
+    amco.country as second_country,
+    weapon,
+    amc.attacks_most_common_weapon + amco.attacks_most_common_weapon as attacks_most_common_weapon
+from cte_most_common_attacks amc
+join cte_most_common_attacks amco on amc.year = amco.year
+join weapon w on w.id = amc.weapon_id
+where amc.country > amco.country
+and amc.attacks_most_common_weapon > 0
+and amco.attacks_most_common_weapon > 0
+order by attacks_most_common_weapon desc
 limit 5;

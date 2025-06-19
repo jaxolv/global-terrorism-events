@@ -1,33 +1,33 @@
--- 35.  Encontre os países onde mais de 50% dos ataques utilizam o mesmo tipo de ataque (ex: Bombing/Explosion). Mostre o país, o tipo de ataque e a proporção.
-with quantidade_dataques_ptipo as (
+-- 35.  Find the countries where more than 50% of attacks use the same attack type (e.g., `Bombing/Explosion`). Show the country, the attack type, and the proportion.
+with attacks_per_type as (
     select
         t.country_id,
-        c.country as pais,
+        c.country,
         t.attack_id,
-        a.attack as tipo_ataque,
-        count(*) as quantidade_dataques
+        a.attack as attack_type,
+        count(*) as attacks
     from terrorism_act t
     join country c on c.id = t.country_id
     join attack a on a.id = t.attack_id
     group by t.country_id, c.country, t.attack_id, a.attack
 ),
-quantidade_dataques_total as (
+total_attacks as (
     select
         country_id,
-        count(*) as quantidade_dataques
+        count(*) as attacks
     from terrorism_act
     group by country_id
 ),
-percentual_de_ataques as (
+attack_percentage as (
     select
-        pais,
-        tipo_ataque,
-        round((tip.quantidade_dataques::numeric / tot.quantidade_dataques) * 100, 2) as percentual_no_pais
-    from quantidade_dataques_total tot
-    join quantidade_dataques_ptipo tip on tip.country_id = tot.country_id
+        country,
+        attack_type,
+        round((tip.attacks::numeric / tot.attacks) * 100, 2) as perc_in_country
+    from total_attacks tot
+    join attacks_per_type tip on tip.country_id = tot.country_id
 )
 select
     *
-from percentual_de_ataques
-where percentual_no_pais > 50.00
-order by pais;
+from attack_percentage
+where perc_in_country > 50.00
+order by country;

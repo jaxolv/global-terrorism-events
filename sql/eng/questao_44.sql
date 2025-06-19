@@ -1,13 +1,13 @@
--- 44. Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual).
-with tab_pais_por_media as (
+-- 44. List the five countries with the highest average number of different attack types per year (annual variety). 
+with cte_country_per_avg as (
     select 
         country_id,
-        round(avg(tipos_ataques_por_ano), 2) as media_variedade_ataques_por_pais
+        round(avg(attacks_per_year), 2) as avg_types_attacks_country
     from (
         select
             country_id,
             iyear,
-            count(distinct attack_id) as tipos_ataques_por_ano
+            count(distinct attack_id) as attacks_per_year
         from terrorism_act
         where attack_id is not null
         group by country_id, iyear
@@ -16,8 +16,8 @@ with tab_pais_por_media as (
 )
 select
     country,
-    media_variedade_ataques_por_pais
-from tab_pais_por_media m
+    avg_types_attacks_country
+from cte_country_per_avg m
 join country c on c.id = m.country_id
-order by media_variedade_ataques_por_pais desc
+order by avg_types_attacks_country desc
 limit 5;

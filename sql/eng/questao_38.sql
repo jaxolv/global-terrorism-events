@@ -1,17 +1,17 @@
--- 38.  Liste os cinco países com maior número de ataques em áreas sem identificação de cidade. Mostre a quantidade e o percentual em relação ao total do país.
+-- 38.  List the five countries with the highest number of attacks in areas with unidentified cities. Show the quantity and the percentage relative to the country’s total.
 select
-    country as pais,
-    soma_cidade_desconhecida,
-    soma_ataques_no_pais,
-    round((soma_cidade_desconhecida::numeric / soma_ataques_no_pais) * 100, 2) as percentual
+    country,
+    sum_city_unknown,
+    sum_attack_country,
+    round((sum_city_unknown::numeric / sum_attack_country) * 100, 2) as perc
 from (
     select
         country_id,
-        count(*) soma_ataques_no_pais,
-        sum(case when city is null or city in ('Unknown', '') then 1 else 0 end) as soma_cidade_desconhecida
+        count(*) sum_attack_country,
+        sum(case when city is null or city in ('Unknown', '') then 1 else 0 end) as sum_city_unknown
     from terrorism_act
     group by country_id
-) as acd
-join country c on c.id = acd.country_id
-order by percentual desc
+) as sub
+join country c on c.id = sub.country_id
+order by perc desc
 limit 5;

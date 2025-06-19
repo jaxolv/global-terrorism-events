@@ -1,29 +1,29 @@
--- 41.  Para cada região, calcule um “índice de instabilidade” definido como:
--- (número total de tipos diferentes de ataques por país) x (percentual fracionário médio de ataques bem-sucedidos na região)
--- Liste as regiões com seus índices, ordenadas do maior para o menor.
+-- 41.  For each region, calculate an "instability index" defined as:
+-- (total number of different attack types per country) x (average fractional percentage of successful attacks in the region)
+-- List the regions with their indexes, ordered from highest to lowest. 
 
-with tab_somatorio_variedade_ataques_regiao as (
+with cte_sum_attacks_regions as (
     select
         region_id,
-        sum(quant_ataques_tipo_pais) as somatorio_variedades_ataques_paises,
-        avg(percentual_ataques_bem_sucedidos) as media_ataques_bem_sucedidos_regiao
+        sum(attacks_country) as sum_attacks_countries,
+        avg(perc_attacks_succesfull) as avg_attacks_succesfull_region
     from (
         select
             country_id,
             region_id,
-            count(distinct attack_id) as quant_ataques_tipo_pais,
-            sum(case when success then 1 else 0 end)::numeric / count(*) as percentual_ataques_bem_sucedidos
+            count(distinct attack_id) as attacks_country,
+            sum(case when success then 1 else 0 end)::numeric / count(*) as perc_attacks_succesfull
         from terrorism_act
         where attack_id is not null
         group by country_id, region_id
-    ) as sub_paises_tipos_ataques
+    ) as sub
     group by region_id
 )
 select
-    region as regiao,
+    region,
     round(
-        media_ataques_bem_sucedidos_regiao * somatorio_variedades_ataques_paises, 2
-    ) as indice_de_instabilidade
-from tab_somatorio_variedade_ataques_regiao sva
+        avg_attacks_succesfull_region * sum_attacks_countries, 2
+    ) as instability_index
+from cte_sum_attacks_regions sva
 join region r on r.id = sva.region_id
-order by indice_de_instabilidade desc;
+order by instability_index desc;

@@ -10,14 +10,15 @@ This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/da
 1. [Project Objectives](#-project-objectives)
 2. [Structure](#-structure)
 
-    2.1. [Branch Structure](#-branch-structure)
-    2.2. [Directory Structure](#-directory-structure)
+    2.1 [Branches](#-branches)
+
+    2.2 [Directories](#-directories)
 3. [SQL Challenges Content](#-sql-challenges-content)
    
     3.1 [Challenges](sql/DISCLAIMER.md)
 4. [Dashboards](#-dashboards)
 5. [Disclaimers](#-disclaimers) and [Contact](#-contact)
-6. [Acknowledgments](#if-you-read-this-far)
+6. [Tanks](#if-you-get-here)
 
 ---
 

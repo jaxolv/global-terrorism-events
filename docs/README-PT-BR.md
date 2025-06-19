@@ -10,15 +10,15 @@ Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/d
 1. [Objetivos do Projeto](#-objetivos-do-projeto)
 2. [Estruturas](#estruturas)
 
-    2.1 [Branches]()
-    2.2 [Diretórios]
-3. [Estrutura de Diretórios](#-estrutura-de-diretórios)
-4. [Conteúdo dos Desafios SQL](#-conteúdo-dos-desafios-sql)
+    2.1 [Branches](#-branches)
+
+    2.2 [Diretórios](#-diretórios)
+3. [Conteúdo dos Desafios SQL](#-conteúdo-dos-desafios-sql)
    
-    4.1 [Desafios](sql/DESAFIOS.md)
-6. [Dashboards](#-dashboards)
-7. [Avisos](#-avisos) e [contatos](#-contato)
-8. [Agradecimentos](#se-leu-até-aqui)
+    3.1 [Desafios](sql/DESAFIOS.md)
+4. [Dashboards](#-dashboards)
+5. [Avisos](#-avisos) e [contatos](#-contato)
+6. [Agradecimentos](#se-leu-até-aqui)
 
 ---
 

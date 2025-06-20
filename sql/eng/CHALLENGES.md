@@ -48,7 +48,7 @@ Here's listed the last 20 challenges made in SQL.
 45. [x] For each decade, show the most lethal country (with the highest total number of deaths attributed to attacks) and the most commonly used attack type by that country in the decade. ([Resolution](/sql/eng/questao_45.sql))
 
 ### Advanced II
-46. [ ] For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year.
+46. [x] For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year. ([Resolution](/sql/eng/questao_46.sql))
 
 47. [ ] For each region, identify the attack type that resulted in the highest average number of deaths per event, considering only events between 2000 and 2010. List the region, the attack type, and the average fatalities.
 

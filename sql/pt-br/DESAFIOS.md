@@ -111,20 +111,20 @@ Aqui estão listadas todos os enunciados de todos os desafios em português. A r
 42. [x] Liste os cinco pares de países com maior número de ataques usando armas químicas, biológicas ou radiológicas. Inclua o ano do par, a quantidade de ataques e o tipo de arma mais comum usado por ambos. ([Resolução](/sql/eng/questao_42.sql))
 
 43. [x] Mostre, para cada país, a diferença percentual entre o total de ataques e o total de ataques bem-sucedidos. Liste apenas os países com pelo menos 100 ataques. ([Resolução](/sql/eng/questao_43.sql))
-
+s
 44. [x] Liste os cinco países com a maior média de tipos diferentes de ataque por ano (variedade anual).
     Ex: se um país teve 3 tipos em 2001, 2 em 2002, 5 em 2003, calcule a média dessas quantidades. ([Resolução](/sql/eng/questao_44.sql))
 
 45. [x] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década. ([Resolução](/sql/eng/questao_45.sql))
 
 ### Nível Avançado II (ENG)
-46. [ ] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
+46. [x] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
 
-47. [ ] Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades.
+47. [x] Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades.
 
-48. [ ] Identifique grupos de ataques coordenados, ou seja, eventos no mesmo país, no mesmo dia, com o mesmo tipo de ataque. Liste os países com mais ocorrências desse tipo, o número de vezes que isso aconteceu, e os anos mais comuns desses ataques.
+48. [x] Identifique grupos de ataques coordenados, ou seja, eventos no mesmo país, no mesmo dia, com o mesmo tipo de ataque. Liste os países com mais ocorrências desse tipo, o número de vezes que isso aconteceu, e os anos mais comuns desses ataques.
 
-49. [ ] Para cada tipo de alvo, calcule a eficácia dos atentados definida como:
+49. [x] Para cada tipo de alvo, calcule a eficácia dos atentados definida como:
     ```
     (número de ataques bem-sucedidos) / (número total de ataques ao alvo)
     ```

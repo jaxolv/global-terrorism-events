@@ -50,11 +50,11 @@ Here's listed the last 20 challenges made in SQL.
 ### Advanced II
 46. [x] For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year. ([Resolution](/sql/eng/questao_46.sql))
 
-47. [ ] For each region, identify the attack type that resulted in the highest average number of deaths per event, considering only events between 2000 and 2010. List the region, the attack type, and the average fatalities.
+47. [x] For each region, identify the attack type that resulted in the highest average number of deaths per event, considering only events between 2000 and 2010. List the region, the attack type, and the average fatalities.
 
-48. [ ] Identify groups of coordinated attacks, meaning events in the same country, on the same day, using the same attack type. List the countries with the most occurrences of this kind, the number of times it happened, and the most common years for these attacks.
+48. [x] Identify groups of coordinated attacks, meaning events in the same country, on the same day, using the same attack type. List the countries with the most occurrences of this kind, the number of times it happened, and the most common years for these attacks.
 
-49. [ ] For each target type, calculate the attack effectiveness defined as:
+49. [x] For each target type, calculate the attack effectiveness defined as:
     ```
     (number of successful attacks) / (total number of attacks on that target)
     ```

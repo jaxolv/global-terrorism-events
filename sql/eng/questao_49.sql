@@ -1,6 +1,6 @@
--- 49.  Para cada tipo de alvo, calcule a eficácia dos atentados definida como:
---  (número de ataques bem-sucedidos) / (número total de ataques ao alvo)
---  Liste os alvos com eficácia acima de 75%, ordenados do mais eficaz ao menos.
+-- 49. For each target type, calculate the attack effectiveness defined as:
+-- (number of successful attacks) / (total number of attacks on that target)
+-- List the targets with effectiveness above 75%, ordered from most to least effective.
 
 with cte_success_rate as (
     select

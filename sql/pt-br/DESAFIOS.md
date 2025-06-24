@@ -130,7 +130,7 @@ s
     ```
     Liste os alvos com eficácia acima de 75%, ordenados do mais eficaz ao menos.
 
-50. [ ] Crie uma métrica de risco relativo de atentado para cada país, definida como:
+50. [x] Crie uma métrica de risco relativo de atentado para cada país, definida como:
     ```
     (ataques por milhão de habitantes)
     ```

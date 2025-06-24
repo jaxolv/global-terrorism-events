@@ -1,5 +1,4 @@
 -- 46. For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year.
-
 with cte_group_country as (
     select
         country_id,

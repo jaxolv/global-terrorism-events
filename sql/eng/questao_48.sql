@@ -1,4 +1,4 @@
--- 48. Identifique ataques coordenados, ou seja, eventos no mesmo país, no mesmo dia, com o mesmo tipo de ataque. Liste os países com mais ocorrências desse tipo, o número de vezes que isso aconteceu, e os anos mais comuns desses ataques.
+-- 48. Identify groups of coordinated attacks, meaning events in the same country, on the same day, using the same attack type. List the countries with the most occurrences of this kind, the number of times it happened, and the most common years for these attacks.
 
 with cte_list_countries_groups as (
     select

@@ -60,7 +60,7 @@ Here's listed the last 20 challenges made in SQL.
     ```
     List the targets with effectiveness above 75%, ordered from most to least effective.
 
-50. [ ] Create a relative attack risk metric for each country, defined as:
+50. [x] Create a relative attack risk metric for each country, defined as:
     ```
     (attacks per million inhabitants)
     ```

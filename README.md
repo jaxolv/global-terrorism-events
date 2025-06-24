@@ -73,16 +73,16 @@ Examples of dashboards created in Power BI:
 ### Challenge 30: Dangerousness Index
 For each country, a "Dangerousness Index" was calculated by dividing the total number of recorded attacks since 1970 by the product of the variety of weapons used and the variety of attack types. This metric measures how "dangerous" a country is in terms of terrorism attacks, regardless of targets, perpetrators, or methods used. The image shows the regions of the 8 countries with the highest Dangerousness Index around the world.
 
-![Regions of the 8 countries with the highest Dangerousness Index](images/questao_30_grafico_de_donut.png)
+![Regions of the 8 countries with the highest Dangerousness Index](images/challenge_30_donut_graphic.png)
 
 ### Challenge 41: Instability Index
 For each region in the world, an "Instability Index" was calculated, based on the product of the total number of different attack types per country and the average fractional success rate of attacks in the region. This ranking contrasts with the previous table: while the top regions remain similar, some European regions now appear among the top 5, showing that these are not mirrored metrics and that the attack success rate may play a decisive role in this new ranking.
 
-![Instability index by region in descending order](images/questao_41_grafico_de_barras.png)
+![Instability index by region in descending order](images/challenge_41_bars_graphic.png)
 
 When grouped by continent, African regions remain in the lead, but Europe takes second place, followed by the Americas, Asia and Oceania.
 
-![Continents ranked by Instability Index](images/questao_41_grafico_cascata.png)
+![Continents ranked by Instability Index](images/challenge_41_cascate_graphic.png)
 
 ---
 

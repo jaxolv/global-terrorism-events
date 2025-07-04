@@ -50,18 +50,18 @@ Here's listed the last 20 challenges made in SQL.
 ### Advanced II
 46. [x] For each country that had attacks in 3 or more consecutive years, identify the countries where the number of attacks increased year over year during those periods. List the country, the years when this occurred, and the number of attacks per year. ([Resolution](/sql/eng/questao_46.sql))
 
-47. [x] For each region, identify the attack type that resulted in the highest average number of deaths per event, considering only events between 2000 and 2010. List the region, the attack type, and the average fatalities.
+47. [x] For each region, identify the attack type that resulted in the highest average number of deaths per event, considering only events between 2000 and 2010. List the region, the attack type, and the average fatalities. ([Resolution](sql/eng/questao_47.sql))
 
-48. [x] Identify groups of coordinated attacks, meaning events in the same country, on the same day, using the same attack type. List the countries with the most occurrences of this kind, the number of times it happened, and the most common years for these attacks.
+48. [x] Identify groups of coordinated attacks, meaning events in the same country, on the same day, using the same attack type. List the countries with the most occurrences of this kind, the number of times it happened, and the most common years for these attacks. ([Resolution](sql/eng/questao_48.sql))
 
 49. [x] For each target type, calculate the attack effectiveness defined as:
     ```
     (number of successful attacks) / (total number of attacks on that target)
     ```
-    List the targets with effectiveness above 75%, ordered from most to least effective.
+    List the targets with effectiveness above 75%, ordered from most to least effective. ([Resolution](sql/eng/questao_49.sql))
 
 50. [x] Create a relative attack risk metric for each country, defined as:
     ```
     (attacks per million inhabitants)
     ```
-    Consider only countries with known population data in a fictional auxiliary table called population(country_id, population_millions) and order the countries from most to least "dangerous".
+    Consider only countries with known population data in a fictional auxiliary table called population(country_id, population_millions) and order the countries from most to least "dangerous". ([Resolution](sql/eng/questao_50.sql))

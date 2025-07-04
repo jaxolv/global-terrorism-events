@@ -118,20 +118,20 @@ s
 45. [x] Para cada década, mostre o país mais letal (com maior número total de mortes atribuídas a ataques) e o tipo de ataque mais utilizado por esse país na década. ([Resolução](/sql/eng/questao_45.sql))
 
 ### Nível Avançado II (ENG)
-46. [x] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano.
+46. [x] Para cada país que teve ataques em 3 anos consecutivos ou mais, identifique os países cuja quantidade de ataques cresceu ano a ano nesses períodos. Liste o país, os anos em que isso ocorreu, e o número de ataques em cada ano. ([Resolução](/sql/eng/questao_46.sql))
 
-47. [x] Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades.
+47. [x] Para cada região, identifique o tipo de ataque que resultou no maior número médio de mortos por evento, considerando apenas eventos entre 2000 e 2010. Liste a região, o tipo de ataque, e a média de fatalidades. ([Resolução](/sql/eng/questao_47.sql))
 
-48. [x] Identifique grupos de ataques coordenados, ou seja, eventos no mesmo país, no mesmo dia, com o mesmo tipo de ataque. Liste os países com mais ocorrências desse tipo, o número de vezes que isso aconteceu, e os anos mais comuns desses ataques.
+48. [x] Identifique grupos de ataques coordenados, ou seja, eventos no mesmo país, no mesmo dia, com o mesmo tipo de ataque. Liste os países com mais ocorrências desse tipo, o número de vezes que isso aconteceu, e os anos mais comuns desses ataques. ([Resolução](/sql/eng/questao_48.sql))
 
 49. [x] Para cada tipo de alvo, calcule a eficácia dos atentados definida como:
     ```
     (número de ataques bem-sucedidos) / (número total de ataques ao alvo)
     ```
-    Liste os alvos com eficácia acima de 75%, ordenados do mais eficaz ao menos.
+    Liste os alvos com eficácia acima de 75%, ordenados do mais eficaz ao menos. ([Resolução](/sql/eng/questao_49.sql))
 
 50. [x] Crie uma métrica de risco relativo de atentado para cada país, definida como:
     ```
     (ataques por milhão de habitantes)
     ```
-    Considere apenas países com população conhecida em uma tabela auxiliar fictícia chamada population(country_id, population_millions) e ordene os países do mais ao menos "perigosos".
+    Considere apenas países com população conhecida em uma tabela auxiliar fictícia chamada population(country_id, population_millions) e ordene os países do mais ao menos "perigosos". ([Resolução](/sql/eng/questao_50.sql))

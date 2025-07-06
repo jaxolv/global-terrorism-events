@@ -16,9 +16,10 @@ Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/d
 3. [Conteúdo dos Desafios SQL](#-conteúdo-dos-desafios-sql)
    
     3.1 [Desafios](sql/DESAFIOS.md)
-4. [Dashboards](#-dashboards)
-5. [Avisos](#-avisos) e [contatos](#-contato)
-6. [Agradecimentos](#se-leu-até-aqui)
+4. [Importação de dados](#-importando-o-dataset-para-sua-máquina-local)
+5. [Dashboards](#-dashboards)
+6. [Avisos](#-avisos) e [contatos](#-contato)
+7. [Agradecimentos](#se-leu-até-aqui)
 
 ---
 
@@ -66,6 +67,11 @@ README.md           # Você está aqui!
 
 ## 🧠 Conteúdo dos Desafios SQL
 Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
+
+---
+
+## 🧮 Importando o Dataset para Sua Máquina Local
+Caso queira praticar ou apenas executar as queries aqui postadas em sua máquina local, siga este passo-a-passo clicando [aqui](https://github.com/jaxolv/brazilian-e-commerce/blob/main/docs/IMPORT_DATA_PT-BR.md). Esse é o exemplo do repositório [Brazilian E-Commerce Dataset](https://github.com/jaxolv/brazilian-e-commerce), mas também se aplica a esse projeto.
 
 ---
 

@@ -16,9 +16,10 @@ This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/da
 3. [SQL Challenges Content](#-sql-challenges-content)
    
     3.1 [Challenges](sql/DISCLAIMER.md)
-4. [Dashboards](#-dashboards)
-5. [Disclaimers](#-disclaimers) and [Contact](#-contact)
-6. [Tanks](#if-you-get-here)
+4. [Importing data](#-importing-the-dataset-to-your-local-machine)
+5. [Dashboards](#-dashboards)
+6. [Disclaimers](#-disclaimers) and [Contact](#-contact)
+7. [Tanks](#if-you-get-here)
 
 ---
 
@@ -64,6 +65,11 @@ README.md           # You are here!
 
 ## 🧠 SQL Challenges Content
 The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](sql/DISCLAIMER.md) to go directly to the page with all the questions.
+
+---
+
+## 🧮 Importing the Dataset to Your Local Machine
+In case you want to practice or only run the queries here uploaded on your local machine, follow these steps [clicking here](https://github.com/jaxolv/brazilian-e-commerce/blob/main/docs/IMPORT_DATA.md). This example is from the repository [Brazilian E-Commerce Dataset](https://github.com/jaxolv/brazilian-e-commerce), but it applies also to this project.
 
 ---
 

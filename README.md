@@ -102,7 +102,10 @@ You'll find all my contacts in the `README` of my GitHub profile: [github.com/ja
 ---
 
 ## If you get here:
-Thank you so much for your time and attention.
+Thank you so much for your time and attention. I'm available if you want to contact me.
 
-Feel free to get in touch!
+Here are other project that I'm working on. Feel free to look:
 
+| Project type | Name | Repository |
+| - | - | - |
+| Kaggle Dataset | Brazilian E-Commerce | [brazilian-e-commerce](https://github.com/jaxolv/brazilian-e-commerce) |

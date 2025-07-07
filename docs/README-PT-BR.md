@@ -106,8 +106,9 @@ Você encontrará meus contatos no `README` do meu perfil aqui no Github: [githu
 ## Se leu até aqui:
 Desde já, agradeço pela tempo e atenção. Estou à disposição caso queira entrar em contato.
 
-Logo abaixo está outro projeto em que estou trabalhando. Fique à vontade para consultar:
+Logo abaixo estão outros projetos em que trabalhei. Fique à vontade para consultar:
 
 | Tipo de projeto | Nome | Repositório |
 | - | - | - |
+| Dataset do site Kaggle | Ataques Terroristas no Mundo | global-terrorism-events |
 | Dataset do site Kaggle | Comércio Digital Brasileiro | [brazilian-e-commerce](https://github.com/jaxolv/brazilian-e-commerce) |

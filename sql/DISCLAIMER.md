@@ -13,7 +13,7 @@ All the 50 challenges were made and divided in 6 parts:
 | [Advanced I](/sql/eng/CHALLENGES.md/#advanced-i) | 41 a 45 |
 | [Advanced II](/sql/eng/CHALLENGES.md/#advanced-ii) | 46 a 50 |
 
-The first 30 challenges (questions) were answered in Portuguese. The last 20 are being done in English for practicality in solving and portfolio. You can click in the leves at the summary to open it.
+The first 30 challenges (questions) were answered in Portuguese. The last 20 were made in English for practicality in solving and portfolio. You can click in the leves at the summary to open it.
 
 In case you want to see all the challenges in portuguese, you can see in here: :brazil: [Desafios de Nível Básico a Intermediário em Português](/sql/pt-br/DESAFIOS.md)
 

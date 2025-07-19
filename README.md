@@ -1,6 +1,6 @@
 This project also has a portuguese version: :brazil: [Leia em Português](docs/README-PT-BR.md)
 
-# 🌍 Terrorist Attacks Around the World
+# Terrorist Attacks Around the World
 
 This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) for **study**, **documentation**, and **technical skill demonstration** in **SQL, Python, and Power BI**. Although it's a personal project, it is structured as a public portfolio.
 
@@ -23,7 +23,7 @@ This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/da
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Complete **50 SQL challenges**, divided by difficulty levels, based on a customized version of the GTD dataset;
 - Create a **Python ETL pipeline** for data manipulation and export;
@@ -32,9 +32,9 @@ This project uses the [Global Terrorism Dataset (GTD)](https://www.kaggle.com/da
 
 ---
 
-## 🌿 Structure
+## Structure
 
-### 🚀 Branches
+### Branches
 
 This project follows a workflow organized by functionality:
 
@@ -46,7 +46,7 @@ This project follows a workflow organized by functionality:
 | `stage` | Intermediate integration of all resources before merging into `main` |
 | `main` | Final and stable version, ready for public presentation on GitHub |
 
-### 📁 Directories
+### Directories
 ```
 /csv                # CSVs extracted via script
 /dashboards         # Power BI (.pbix) files
@@ -63,17 +63,17 @@ README.md           # You are here!
 
 ---
 
-## 🧠 SQL Challenges Content
+## SQL Challenges Content
 The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](sql/DISCLAIMER.md) to go directly to the page with all the questions.
 
 ---
 
-## 🧮 Importing the Dataset to Your Local Machine
+## Importing the Dataset to Your Local Machine
 In case you want to practice or only run the queries here uploaded on your local machine, follow these steps [clicking here](https://github.com/jaxolv/brazilian-e-commerce/blob/main/docs/IMPORT_DATA.md). This example is from the repository [Brazilian E-Commerce Dataset](https://github.com/jaxolv/brazilian-e-commerce), but it applies also to this project.
 
 ---
 
-## 📊 Dashboards
+## Dashboards
 Examples of dashboards created in Power BI:
 
 ### Challenge 30: Dangerousness Index
@@ -92,11 +92,11 @@ When grouped by continent, African regions remain in the lead, but Europe takes 
 
 ---
 
-## 📌 Disclaimers
+## Disclaimers
 1) This project is educational and has no commercial purpose. The analyses were based on public data from the site [Kaggle](https://www.kaggle.com/datasets/) and are intended to demonstrate technical skills.
 2) If you wish, you can download the documents I used for this project, including the PDFs. Everything is available in the `.rar` file in [docs](docs), including the adapted table CSVs for this project.
 
-## 📬 Contact
+## Contact
 You'll find all my contacts in the `README` of my GitHub profile: [github.com/jaxolv](https://github.com/jaxolv)
 
 ---

@@ -1,6 +1,6 @@
 Esse projeto também tem uma versão em Inglês: :us: [Read In English](/README.md)
 
-# 🌍 Atentados Terroristas ao Redor do Mundo
+# Atentados Terroristas ao Redor do Mundo
 
 Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/datasets/START-UMD/gtd) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
 
@@ -23,7 +23,7 @@ Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/d
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 - Realizar **50 desafios de SQL**, divididos em níveis de dificuldade, a partir de uma adaptação que fiz da base GTD;
 - Criar um pipeline de **ETL em Python** para manipulação e exportação dos dados;
@@ -32,9 +32,9 @@ Este projeto utiliza o dataset [Global Terrorism (GTD)](https://www.kaggle.com/d
 
 ---
 
-## 🌿 Estruturas
+## Estruturas
 
-### 🚀 Branches
+### Branches
 
 Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 
@@ -48,7 +48,7 @@ Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 
 ---
 
-### 📁 Diretórios
+### Diretórios
 ```
 /csv                # CSVs extraídos via script
 /dashboards         # Arquivos .pbix do Power BI
@@ -65,17 +65,17 @@ README.md           # Você está aqui!
 
 ---
 
-## 🧠 Conteúdo dos Desafios SQL
+## Conteúdo dos Desafios SQL
 Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
 
 ---
 
-## 🧮 Importando o Dataset para Sua Máquina Local
+## Importando o Dataset para Sua Máquina Local
 Caso queira praticar ou apenas executar as queries aqui postadas em sua máquina local, siga este passo-a-passo clicando [aqui](https://github.com/jaxolv/brazilian-e-commerce/blob/main/docs/IMPORT_DATA_PT-BR.md). Esse é o exemplo do repositório [Brazilian E-Commerce Dataset](https://github.com/jaxolv/brazilian-e-commerce), mas também se aplica a esse projeto.
 
 ---
 
-## 📊 Dashboards
+## Dashboards
 Abaixo serão adicionadas imagens de dashboards criados no Power BI como exemplo.
 
 ### Questão 30: Índice de Periculosidade
@@ -94,11 +94,11 @@ Quando agrupamos por continentes, vemos que regiões da África continuam à fre
 
 ---
 
-## 📌 Avisos
+## Avisos
 1) Este projeto é educacional e não possui fins comerciais. As análises foram produzidas com base em dados públicos do Kaggle, e servem como demonstração de habilidades técnicas.
 2) Caso queira, você pode baixar os documentos que usei para este projeto, incluindo os desafios em PDF. Todos estão no arquivo `.rar` em [docs](docs), incluindo os CSVs das tabelas adaptadas para esse projeto.
 
-## 📬 Contato
+## Contato
 Você encontrará meus contatos no `README` do meu perfil aqui no Github: [github.com/jaxolv](https://github.com/jaxolv)
 
 ---
